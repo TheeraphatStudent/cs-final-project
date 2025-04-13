@@ -1,0 +1,23 @@
+- Implement code มาก่อนแล้วค่อยกำหนดขอบเขตงาน
+	- กำหนดตัวแปรที่จะศึกษาอย่างละเอียด
+
+- Bad word detected (Optional)
+- URL Detect (Core)
+- ตรวจสอบ Link แปลกๆ คล้ายๆ https://phishtank.org/ 
+
+- Client web view mobile
+- Chrome Extension
+
+- Progress ทุกๆสัปดาห์
+
+============================
+
+Y3 S1 (5 - 6)
+
+- Advance web
+- Mobile Dev
+- System analysis
+- Angrolithm
+- สัมนา
+ 
+- Prosprosal 1 (ไม่ไหวก็ถอน)
