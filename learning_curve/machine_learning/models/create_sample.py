@@ -4,6 +4,7 @@ from tensorflow.keras.layers import Input, Embedding, LSTM, Dense, GlobalAverage
 import numpy as np
 import string
 import sys
+import os
 
 # 1. Character-level vocabulary
 chars = list(string.ascii_lowercase + string.digits + " ")
@@ -73,9 +74,15 @@ def analyze_text(text):
 # print(analyze_text("h3110"))
 # print(analyze_text("123456"))
 # print(analyze_text("AI2025"))
-# print(analyze_text("A"))
+# print(analyze_text("A")
+# 
 
-model.save("string_number_classifier.keras")
+save_dir = "machine_learning/exports"
+filename = "string_number_classifier.keras"
+
+os.makedirs(save_dir, exist_ok=True)
+save_path = os.path.join(save_dir, filename)
+model.save(save_path)
 
 sys.modules[__name__] = analyze_text
 # __all__ = [analyze_text, preprocess]
