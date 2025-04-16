@@ -1,4 +1,4 @@
-# Link Guard
+# 
 an dangerous link detected
 
 ## 5h
@@ -12,3 +12,12 @@ Hierarchical Data Format version 5 (HDF5 หรือ .h5 file) คือ ระ
 
 ## Keras
 
+
+
+## Project structure
+
+- src/
+  * Main Project
+
+- learning curve
+  * Leaning for project
