@@ -1,6 +1,26 @@
 # 
 an dangerous link detected
 
+## To running model
+
+
+1. Create **.venv**
+```
+python -m venv .venv
+```
+
+2. Install requirement
+```
+pip install -r src/requirements.txt
+```
+
+3. Active .venv
+```
+.\.venv\Scripts\activate
+```
+
+4.
+
 ## 5h
 
 [Preview File](https://myhdf5.hdfgroup.org/)
@@ -12,7 +32,15 @@ Hierarchical Data Format version 5 (HDF5 หรือ .h5 file) คือ ระ
 
 ## Keras
 
+## Libralies usaged
 
+- [Scikit learn](https://scikit-learn.org/stable/install.html)
+- [Tensor flow]()
+- [Keras]
+- [Numpy]
+- [Linear SVM](https://www.csie.ntu.edu.tw/~cjlin/libsvm/)
+- [Linear SVM - Port for js](https://github.com/mljs/libsvm)
+- [NLP](https://www.kommunicate.io/blog/nlp-libraries-node-javascript/)
 
 ## Project structure
 
@@ -20,4 +48,4 @@ Hierarchical Data Format version 5 (HDF5 หรือ .h5 file) คือ ระ
   * Main Project
 
 - learning curve
-  * Leaning for project
+  * an resource leaning for project
