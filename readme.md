@@ -19,7 +19,10 @@ pip install -r src/requirements.txt
 .\.venv\Scripts\activate
 ```
 
-4.
+4. Run project on __main__.py
+```
+python .\src\__main__.py
+```
 
 ## 5h
 
@@ -47,5 +50,6 @@ Hierarchical Data Format version 5 (HDF5 หรือ .h5 file) คือ ระ
 - src/
   * Main Project
 
-- learning curve
-  * an resource leaning for project
+- __test__
+  * Testing Model
+  * Testing concept
