@@ -8,3 +8,4 @@
 **.venv
 **.joblib
 **~**
+**__test__

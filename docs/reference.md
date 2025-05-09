@@ -18,6 +18,8 @@
 
   [Keras - Deep learning for human](https://keras.io/)
 
+  [Performance Model](https://varshithagudimalla.medium.com/performance-measure-of-a-machine-learning-model-fb657263bf98)
+
 ---
 
 - Lib ที่เกี่ยวข้อง
