@@ -20,6 +20,9 @@
 
   [Performance Model](https://varshithagudimalla.medium.com/performance-measure-of-a-machine-learning-model-fb657263bf98)
 
+  [Url Component](https://www.geeksforgeeks.org/components-of-a-url/)
+
+
 ---
 
 - Lib ที่เกี่ยวข้อง

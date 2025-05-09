@@ -6,13 +6,24 @@ from datetime import datetime
 import re
 
 class DataProcessor:
+    """
+    Data Processor for URL Classification
+    
+    
+    - Handles data loading and preprocessing from Excel files
+    - Implements URL feature extraction and analysis
+    - Performs data normalization and transformation
+    - Manages data persistence and storage
+    """
+
     def __init__(self, input_path, output_path):
         """
         Initialize the DataProcessor
         
-        Args:
-            input_path (str): Path to input Excel file
-            output_path (str): Path to save processed CSV file
+
+        - Sets up input/output paths for data processing pipeline
+        - Initializes LabelEncoder for categorical feature encoding
+        - Prepares for feature extraction and transformation
         """
         self.input_path = input_path
         self.output_path = output_path
@@ -22,11 +33,19 @@ class DataProcessor:
         """
         Extract components from URL
         
-        Args:
-            url (str): URL to process
-            
-        Returns:
-            dict: Dictionary containing URL components
+        
+        1. URL Parsing:
+           - Protocol detection (HTTP/HTTPS)
+           - Domain structure analysis
+           - Path and query parameter extraction
+        2. Component Extraction:
+           - Subdomain identification
+           - Domain name extraction
+           - TLD (Top Level Domain) parsing
+           - Path and query string separation
+        3. Feature Vector Creation:
+           - Combine all components into structured format
+           - Handle missing or invalid URLs
         """
         if pd.isna(url):
             return {
@@ -85,11 +104,19 @@ class DataProcessor:
         """
         Calculate metrics for URL
         
-        Args:
-            url (str): URL to analyze
-            
-        Returns:
-            dict: Dictionary containing URL metrics
+        
+        1. Length Analysis:
+           - Total URL length
+           - Path length
+           - Query string length
+        2. Character Analysis:
+           - Dot count
+           - Slash count
+           - Digit count
+           - Special character count
+        3. Statistical Features:
+           - Character distribution
+           - Pattern frequency
         """
         if pd.isna(url):
             return {
@@ -128,11 +155,16 @@ class DataProcessor:
         """
         Check for suspicious patterns in URL
         
-        Args:
-            url (str): URL to check
-            
-        Returns:
-            dict: Dictionary containing suspicious pattern flags
+        
+        1. Extension Analysis:
+           - Check for suspicious file extensions
+           - Verify against known malicious patterns
+        2. Keyword Analysis:
+           - Search for suspicious keywords
+           - Check for phishing-related terms
+        3. Domain Verification:
+           - Validate against known legitimate domains
+           - Check for domain spoofing patterns
         """
         if pd.isna(url):
             return {
@@ -165,8 +197,18 @@ class DataProcessor:
         """
         Process data from Excel file to CSV
         
-        Returns:
-            pd.DataFrame: Processed DataFrame or None if error
+        
+        1. Data Loading:
+           - Read Excel file using pandas
+           - Handle missing values
+        2. Feature Extraction:
+           - Extract URL components
+           - Calculate URL metrics
+           - Check for suspicious patterns
+        3. Data Transformation:
+           - Combine all features
+           - Ensure required columns
+           - Save processed data
         """
         try:
             print("Loading data from Excel...")
@@ -231,8 +273,14 @@ class DataProcessor:
         """
         Get summary statistics of the processed data
         
-        Returns:
-            dict: Dictionary containing data statistics
+        
+        1. Data Analysis:
+           - Calculate total samples
+           - Count unique domains
+           - Analyze suspicious patterns
+        2. Statistical Summary:
+           - Generate descriptive statistics
+           - Calculate pattern frequencies
         """
         try:
             df = pd.read_csv(self.output_path)
