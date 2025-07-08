@@ -24,6 +24,8 @@ pip install -r src/requirements.txt
 python .\src\__main__.py
 ```
 
+# File type
+
 ## 5h
 
 [Preview File](https://myhdf5.hdfgroup.org/)
@@ -35,7 +37,13 @@ Hierarchical Data Format version 5 (HDF5 หรือ .h5 file) คือ ระ
 
 ## Keras
 
-## Libralies usaged
+## Pth
+
+ไฟล์ .pth ใน PyTorch คือไฟล์ที่ใช้สำหรับบันทึกสถานะของโมเดลที่ผ่านการฝึกแล้ว ซึ่งโดยทั่วไปแล้วจะเก็บพจนานุกรมของพารามิเตอร์โมเดล
+
+[![Website preview](https://miro.medium.com/v2/resize:fit:600/format:webp/1*jojXf2CFdPJAfhfr6sOm9g.jpeg)](https://medium.com/@yulin_li/what-exactly-is-the-pth-file-9a487044a36b)
+
+## Libraries usage
 
 - [Scikit learn](https://scikit-learn.org/stable/install.html)
 - [Tensor flow]()

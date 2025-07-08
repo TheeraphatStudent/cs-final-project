@@ -1,4 +1,4 @@
-# Mathematical Foundations of URL Classification System
+# วิธีการทำงานของ Model สำหรับ URL Classification System
 
 ## 1. Feature
 ### 1.1 URL Length Metrics
@@ -103,9 +103,9 @@ URL lengths in a dataset:
 ### 6.1 Confidence Score
 URL = $u$:
 $$C(u) = |P(y=1|u) - 0.5| \times 2$$
-$P(y=1|u)$ model's predicted = maliciousness ☠️
+$P(y=1|u)$ model's predicted = maliciousness
 
-$P(y=0|u)$ model's predicted = safe 😍
+$P(y=0|u)$ model's predicted = safe
 
 **Sample:**
 3 URLs:
