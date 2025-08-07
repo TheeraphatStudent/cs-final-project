@@ -1,3 +1,0 @@
-{"0":"_svm","1":"_xgboots","level":"info","message":"Discovered stable models:","service":"url-checker-api","timestamp":"2025-08-07 21:02:07"}
-{"level":"info","message":"Starting URL Checker API server...","service":"url-checker-api","timestamp":"2025-08-07 21:02:07"}
-{"0":"_svm","1":"_xgboots","level":"info","message":"Initialized 2 stable models:","service":"url-checker-api","timestamp":"2025-08-07 21:02:07"}

@@ -85,6 +85,8 @@ class UrlMonitorService {
   }
 
   Future<void> logUrl(String url, String source) async {
+    print('Logging URL: $url from $source');
+
     if (_urlHistory.any(
       (entry) => entry.url == url && entry.source == source,
     )) {
