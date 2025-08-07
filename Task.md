@@ -1,4 +1,58 @@
-# Task: Explain XGBoost Model
+# Task: Update .gitignore Files
+
+## Objective
+Update both root `.gitignore` and Flutter application `.gitignore` files to handle large dataset files and improve exclusion coverage.
+
+## Problem Identified
+GitHub push failed due to large files:
+- `ai/src_svm/dataset/processed/data_cleanup.csv` (58.56 MB)
+- `ai/src_xgboost/dataset/processed/processed_data.csv` (136.49 MB)
+
+## Tasks Completed
+1. Updated root `.gitignore` with comprehensive exclusions
+2. Enhanced Flutter application `.gitignore` with platform-specific exclusions
+3. Added large file exclusions to prevent GitHub push failures
+4. Organized exclusions by category for better maintainability
+
+## Files Modified
+- `/home/th33raphat/Desktop/Learn/Project/cs-final-project/.gitignore` - Root project gitignore
+- `/home/th33raphat/Desktop/Learn/Project/cs-final-project/application/.gitignore` - Flutter app gitignore
+
+## Root .gitignore Enhancements
+- **Large Dataset Files**: CSV files exceeding GitHub's 100MB limit
+- **AI Model Files**: .pkl, .joblib, .keras, .h5 files
+- **Database Files**: .db, .sqlite files
+- **Environment Files**: .env variants
+- **OS Generated Files**: .DS_Store, Thumbs.db, etc.
+- **Temporary Files**: .tmp, .cache, .log files
+
+## Flutter .gitignore Enhancements
+- **Flutter-specific generated files**: .g.dart, .freezed.dart, .gr.dart
+- **Platform build files**: iOS, Android, Web, Windows, macOS, Linux
+- **Firebase configuration**: firebase_options.dart, .firebase/
+- **Security**: Environment files, API keys, secrets
+- **Development tools**: Coverage files, debug symbols
+- **Asset management**: Large media file patterns (commented)
+
+## Status
+- [x] Root .gitignore updated
+- [x] Flutter .gitignore updated
+- [x] Large file exclusions added
+- [x] Platform-specific exclusions added
+- [x] Security-sensitive file exclusions added
+
+## Impact
+- Prevents large dataset files from being pushed to GitHub
+- Improves security by excluding sensitive configuration files
+- Reduces repository size by excluding build artifacts and generated files
+- Provides better cross-platform development support
+
+## Date Completed
+January 9, 2025
+
+---
+
+# Previous Task: Explain XGBoost Model
 
 ## Objective
 Analyze and explain the XGBoost model implementation in the `ai/src_xgboost` folder.

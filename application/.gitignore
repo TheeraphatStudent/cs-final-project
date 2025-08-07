@@ -43,3 +43,99 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Flutter specific
+*.g.dart
+*.freezed.dart
+*.gr.dart
+*.config.dart
+*.chopper.dart
+
+# Platform-specific build files
+**/ios/Runner.xcworkspace/
+**/ios/Runner.xcodeproj/project.xcworkspace/
+**/ios/Pods/
+**/ios/.symlinks/
+**/android/.gradle/
+**/android/app/src/main/java/io/flutter/plugins/
+**/android/local.properties
+**/android/key.properties
+**/android/.idea/
+**/android/captures/
+**/android/app/debug/
+**/android/app/profile/
+**/android/app/release/
+
+# Web build files
+/web/build/
+
+# Windows build files
+**/windows/flutter/
+**/windows/runner/
+
+# macOS build files
+**/macos/Flutter/
+**/macos/Runner.xcworkspace/
+**/macos/Runner.xcodeproj/project.xcworkspace/
+
+# Linux build files
+**/linux/flutter/
+
+# Firebase
+**/firebase_options.dart
+**/.firebase/
+**/firebase.json
+**/.firebaserc
+
+# Environment and secrets
+.env
+.env.local
+.env.production
+.env.development
+**/*.env
+secrets.dart
+api_keys.dart
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Coverage files
+coverage/
+**/*.lcov
+
+# Analysis and debugging
+**/*.dSYM/
+**/*.trace
+
+# Temporary files
+*.tmp
+*.temp
+*.backup
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# Flutter test related
+**/test_driver/
+coverage_badge.svg
+
+# Large assets that should be handled with Git LFS
+# (uncomment if using large assets)
+# **/*.jpg
+# **/*.jpeg
+# **/*.png
+# **/*.gif
+# **/*.mp4
+# **/*.mov
