@@ -1,0 +1,1 @@
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","service":"url-checker-api","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1139:18)\n    at afterConnectMultiple (node:net:1714:7)","timestamp":"2025-08-07 21:02:07"}
