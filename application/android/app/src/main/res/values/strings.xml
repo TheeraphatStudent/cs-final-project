@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">URL Scraper</string>
+    <string name="accessibility_service_description">This service monitors clipboard changes and browser activity to capture URLs for web scraping. It helps you track URLs you copy from browsers like Chrome, Firefox, and others. The service only monitors clipboard content and browser window changes - it does not access any other personal data.</string>
+</resources> 

@@ -1,0 +1,83 @@
+services:
+  redis:
+    image: redis:7-alpine
+    container_name: url-checker-redis
+    ports:
+      - "6379:6379"
+    command: redis-server --appendonly yes
+    volumes:
+      - redis_data:/data
+    restart: unless-stopped
+    networks:
+      - url-checker-network
+
+  mysql:
+    image: mysql:8.0
+    container_name: url-checker-mysql
+    ports:
+      - "3306:3306"
+    environment:
+      - MYSQL_ROOT_PASSWORD=password
+      - MYSQL_DATABASE=url_checker
+      - MYSQL_USER=api_user
+      - MYSQL_PASSWORD=api_password
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./scripts/init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+    restart: unless-stopped
+    networks:
+      - url-checker-network
+
+  api:
+    build: .
+    container_name: url-checker-api
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+      - MYSQL_HOST=mysql
+      - MYSQL_PORT=3306
+      - MYSQL_USER=root
+      - MYSQL_PASSWORD=password
+      - MYSQL_DATABASE=url_checker
+      - QUEUE_BATCH_SIZE=1000
+      - AI_MODELS_PATH=/ai
+      - LOG_LEVEL=info
+    depends_on:
+      - redis
+      - mysql
+    volumes:
+      - ./logs:/app/logs
+      - ../ai:/ai:ro
+    restart: unless-stopped
+    networks:
+      - url-checker-network
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: url-checker-phpmyadmin
+    ports:
+      - "8080:80"
+    environment:
+      - PMA_HOST=mysql
+      - PMA_PORT=3306
+      - PMA_USER=root
+      - PMA_PASSWORD=password
+    depends_on:
+      - mysql
+    restart: unless-stopped
+    networks:
+      - url-checker-network
+
+volumes:
+  redis_data:
+    driver: local
+  mysql_data:
+    driver: local
+
+networks:
+  url-checker-network:
+    driver: bridge 
