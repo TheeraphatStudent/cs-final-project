@@ -16,6 +16,7 @@
 
 # API Files
 /api/node_modules
+/api/node_modules/**
 /api/logs
 /api/logs/*
 /api/logs/**/*
@@ -24,11 +25,32 @@
 /api/logs/**/**/**/**/*
 /api/logs/**/**/**/**/**/*
 
+# Flutter Build Files
+**/build/
+**/.cxx/
+**/CMakeFiles/
+**/CMakeCache.txt
+**/cmake_install.cmake
+**/Makefile
+**/*.log
+**/android/.gradle/
+**/android/app/debug/
+**/android/app/profile/
+**/android/app/release/
+**/ios/Flutter/
+**/ios/Runner.xcworkspace/
+**/ios/Pods/
+**/macos/Flutter/
+**/windows/flutter/
+**/linux/flutter/
+
 # Large Dataset Files (GitHub limit: 100MB)
 # CSV files that exceed GitHub size limits
 **/dataset/**/*.csv
 **/datasets/**/*.csv
 ai/src_svm/dataset/processed/data_cleanup.csv
+ai/src_svm/dataset/processed/processed_data_svm.csv
+ai/src_xgboost/dataset/processed/data_cleanup.csv
 ai/src_xgboost/dataset/processed/processed_data.csv
 **/processed_data*.csv
 **/data_cleanup*.csv
@@ -39,6 +61,10 @@ ai/src_xgboost/dataset/processed/processed_data.csv
 **/my_scalername_*.joblib
 **/*.pkl
 **/*.pickle
+ai/src_xgboost/my_model_2025-07-29.pkl
+ai/src_xgboost/my_model_2025-08-07.pkl
+ai/stable/_xgboots.pkl
+api/model/_xgboots.pkl
 
 # Database Files
 *.db
