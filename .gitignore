@@ -46,14 +46,14 @@
 
 # Large Dataset Files (GitHub limit: 100MB)
 # CSV files that exceed GitHub size limits
-**/dataset/**/*.csv
-**/datasets/**/*.csv
-ai/src_svm/dataset/processed/data_cleanup.csv
-ai/src_svm/dataset/processed/processed_data_svm.csv
-ai/src_xgboost/dataset/processed/data_cleanup.csv
-ai/src_xgboost/dataset/processed/processed_data.csv
-**/processed_data*.csv
-**/data_cleanup*.csv
+# **/dataset/**/*.csv
+# **/datasets/**/*.csv
+# ai/src_svm/dataset/processed/data_cleanup.csv
+# ai/src_svm/dataset/processed/processed_data_svm.csv
+# ai/src_xgboost/dataset/processed/data_cleanup.csv
+# ai/src_xgboost/dataset/processed/processed_data.csv
+# **/processed_data*.csv
+# **/data_cleanup*.csv
 
 # Large Model Files
 **/my_model_*.pkl
