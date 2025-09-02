@@ -1,0 +1,872 @@
+PMID,Title,Abstract,Journal,Authors,Publication Date,DOI,PMC ID,URL,References,Grants
+40567680,Enhancing phishing detection with dynamic optimization and character-level deep learning in cloud environments.,"As cloud computing becomes increasingly prevalent, the detection and prevention of phishing URL attacks are essential, particularly in the Internet of Vehicles (IoV) environment, to maintain service reliability. In such a scenario, an attacker could send misleading phishing links, potentially compromising the system's functionality or, at worst, leading to a complete shutdown. To address these emerging threats, this study introduces a novel Dynamic Arithmetic Optimization Algorithm with Deep Learning-Driven Phishing URL Classification (DAOA-DLPC) model for cloud-enabled IoV infrastructure. The candidate's research utilizes character-level embeddings instead of word embeddings, as the former can capture intricate URL patterns more effectively. These embeddings are integrated with a deep learning model, the Multi-Head Attention and Bidirectional Gated Recurrent Units (MHA-BiGRU). To improve precision, hyperparameter tuning has been done using DAOA. The proposed method offers a feasible solution for identifying the phishing URLs, and the method achieves computational efficiency through the attention mechanism and dynamic hyperparameter optimization. The need for this work comes from the observation that the traditional machine learning approaches are not effective in dynamic environments like phishing threat landscapes in a dynamic environment such as the one of phishing threats. The presented DLPC approach is capable of learning new forms of phishing attacks in real time and reduce false positives. The experimental results show that the proposed DAOA-DLPC model outperforms the other models with an accuracy of 98.85%, recall of 98.49%, and F1-score of 98.38% and can effectively detect safe and phishing URLs in dynamic environments. These results imply that the proposed model is useful in distinguishing between safe and unsafe URLs than the conventional models.",PeerJ. Computer science,"Ravula, Ramaiah",2025,10.7717/peerj-cs.2640,PMC12190431,https://pubmed.ncbi.nlm.nih.gov/40567680,"Akande TO, Alabi OO, Ajagbe SA. A deep learning-based CAE approach for simulating 3D vehicle wheels under real-world conditions. Artificial Intelligence and Applications.2022.
+
+Alani MM, Tawfik H. Phishnot: a cloud-based machine-learning approach to phishing URL detection. Computer Networks. 2022;218(4):109407. doi: 10.1016/j.comnet.2022.109407.
+
+Alohali MA, Alasmari N, Maashi M, Nouri AM, Rizwanullah M, Yaseen I, Osman AE, Alneil AA. Metaheuristics with deep learning driven phishing detection for sustainable and secure environment. Sustainable Energy Technologies and Assessments. 2023;56:103114. doi: 10.1016/j.seta.2023.103114.
+
+Alsaedi M, Ghaleb FA, Saeed F, Ahmad J, Alasli M. Cyber threat intelligence-based malicious url detection model using ensemble learning. Sensors. 2022;22(9):3373. doi: 10.3390/s22093373.
+
+Al-Sarem M, Saeed F, Al-Mekhlafi ZG, Mohammed BA, Al-Hadhrami T, Alshammari MT, Alreshidi A, Alshammari TS. An optimized stacking ensemble model for phishing websites detection. Electronics. 2021;10(11):1285. doi: 10.3390/electronics10111285.
+
+Alshehri M, Abugabah A, Algarni A, Almotairi S. Character-level word encoding deep learning model for combating cyber threats in phishing URL detection. Computers and Electrical Engineering. 2022;100(2):107868. doi: 10.1016/j.compeleceng.2022.107868.
+
+Alshingiti Z, Alaqel R, Al-Muhtadi J, Haq QEU, Saleem K, Faheem MH. A deep learning-based phishing detection system using CNN, LSTM, and lSTM-CNN. Electronics. 2023;12(1):232. doi: 10.3390/electronics12010232.
+
+Alsubaei FS, Almazroi AA, Ayub N. Enhancing phishing detection: a novel hybrid ndeep learning framework for cybercrime forensics. IEEE Access. 2024;12:8373. doi: 10.1109/ACCESS.2024.3351946.
+
+Aslam S, Aslam H, Manzoor A, Chen H, Rasool A. Antiphishstack: LSTM-based stacked generalization model for optimized phishing URL detection. Symmetry. 2024;16(2):248. doi: 10.3390/sym16020248.
+
+Bahaghighat M, Ghasemi M, Ozen F. A high-accuracy phishing website detection method based on machine learning. Journal of Information Security and Applications. 2023;77(2):103553. doi: 10.1016/j.jisa.2023.103553.
+
+Bhosle K, Musande V. Evaluation of deep learning CNN model for recognition of devanagari digit. Artificial Intelligence and Applications. 2023;1(2):114–118. doi: 10.47852/bonviewAIA3202441.
+
+Chen H, Ru J, Long H, He J, Chen T, Deng W. Semi-supervised adaptive pseudo-label feature learning for hyperspectral image classification in Internet of Things. IEEE Internet of Things Journal. 2024;11:30754. doi: 10.1109/JIOT.2024.3412925.
+
+Deng W, Cai X, Wu D, Song Y, Chen H, Ran X, Zhou X, Zhao H. MOQEA/D: multi-objective QEA with decomposition mechanism and excellent global search and its application. IEEE Transactions on Intelligent Transportation Systems. 2024;25(9):12517–12527. doi: 10.1109/TITS.2024.3373510.
+
+Dutta AK, Meyyappan T, Qureshi B, Alsanea M, Abulfaraj AW, Al Faraj M, Sait ARW. Optimal deep belief network enabled cybersecurity phishing email classification. Computer Systems Science & Engineering. 2023;44(3):2701–2713. doi: 10.32604/csse.2023.028984.
+
+Ejaz A, Mian AN, Manzoor S. Life-long phishing attack detection using continual learning. Scientific Reports. 2023;13(1):11488. doi: 10.1038/s41598-023-37552-9.
+
+Elumalai K, Bose D. Advancement of phishing attack detection using machine learning. Journal of Electrical Systems. 2024;20(10s):1208–1213.
+
+Ige T, Kiekintveld C, Piplai A. Deep learning-based speech and vision synthesis to improve phishing attack detection through a multi-layer adaptive framework. 2024. ArXiv preprint.
+
+Jafari S, Aghaee-Maybodi N. Detection of phishing addresses and pages with a data set balancing approach by generative adversarial network (GAN) and convolutional neural network (CNN) optimized with swarm intelligence. Concurrency and Computation: Practice and Experience. 2024;36:8033. doi: 10.1002/cpe.8033.
+
+Jha B, Atre M, Rao A. Detecting cloud-based phishing attacks by combining deep learning models. 2022 IEEE 4th International Conference on Trust, Privacy and Security in Intelligent Systems, and Applications (TPS-ISA); Piscataway: IEEE; 2022. pp. 130–139.
+
+Lavanya B, Shanthi C. Malicious software detection based on URL-API intensity feature selection using deep spectral neural classification for improving host security. International Journal of Computational Intelligence and Applications. 2023;22(2):2350002. doi: 10.1142/S1469026823500025.
+
+Li F, Chen J, Zhou L, Kujala P. Investigation of ice wedge bearing capacity based on an anisotropic beam analogy. Ocean Engineering. 2024;302(2129):117611. doi: 10.1016/j.oceaneng.2024.117611.
+
+Li X, Ding L, Du Y, Fan Y, Shen F. Position-enhanced multi-head self-attention based bidirectional gated recurrent unit for aspect-level sentiment classification. Frontiers in Psychology. 2022;385(12):799926. doi: 10.3389/fpsyg.2021.799926.
+
+Li W, Liu D, Li Y, Hou M, Liu J, Zhao Z, Guo A, Zhao H, Deng W. Fault diagnosis using variational autoencoder GAN and focal loss CNN under unbalanced data. Structural Health Monitoring. 2024;55(11):60. doi: 10.1177/14759217241254121.
+
+Meng Y, Chang C, Huo J, Zhang Y, Mohammed Al-Neshmi HM, Xu J, Xie T. Research on ultra-short-term prediction model of wind power based on attention mechanism and CNN-BiGRU combined. Frontiers in Energy Research. 2022;10:920835. doi: 10.3389/fenrg.2022.920835.
+
+Ozcan A, Catal C, Donmez E, Senturk B. A hybrid DNN-LSTM model for detecting phishing URLs. Neural Computing and Applications. 2023;35(7):1–17. doi: 10.1007/s00521-021-06401-z.
+
+Patgiri R, Biswas A, Nayak S. deepBF: malicious URL detection using learned bloom filter and evolutionary deep learning. Computer Communications. 2023;200(7):30–41. doi: 10.1016/j.comcom.2022.12.027.
+
+Prabakaran MK, Meenakshi Sundaram P, Chandrasekar AD. An enhanced deep learning-based phishing detection mechanism to effectively identify malicious URLs using variational autoencoders. IET Information Security. 2023;17(3):423–440. doi: 10.1049/ise2.12106.
+
+Prasad A, Chandra S. Phiusiil: a diverse security profile empowered phishing URL detection framework based on similarity index and incremental learning. Computers & Security. 2024;136(4):103545. doi: 10.1016/j.cose.2023.103545.
+
+Preethi P, Mamatha HR. Region-based convolutional neural network for segmenting text in epigraphical images. Artificial Intelligence and Applications. 2023;1(2):119–127. doi: 10.47852/bonviewAIA2202293.
+
+Ramaiah M, Chandrasekaran V, Chand V, Vasudevan A, Ibrahim S. Enhanced phishing detection: an ensemble stacking model with DT-RFECV and SMOTE. Applied Mathematics. 2024;18(6):1481–1493. doi: 10.18576/amis/180624.
+
+Ramaiah M, Chandrasekaran V, Ravi V, Kumar N. An intrusion detection system using optimized deep neural network architecture. Transactions on Emerging Telecommunications Technologies. 2021;32(4):e4221. doi: 10.1002/ett.4221.
+
+Sahingoz OK, Buber E, Kugu E. Dephides: deep learning based phishing detection system. IEEE Access. 2024;12:8052. doi: 10.1109/ACCESS.2024.3352629.
+
+Said Y, Alsheikhy AA, Lahza H, Shawly T. Detecting phishing websites through improving convolutional neural networks with Self-Attention mechanism. Ain Shams Engineering Journal. 2024;15(4):102643. doi: 10.1016/j.asej.2024.102643.
+
+Shombot ES, Dusserre G, Bestak R, Ahmed NB. An application for predicting phishing attacks: a case of implementing a support vector machine learning model. Cyber Security and Applications. 2024;2(4):100036. doi: 10.1016/j.csa.2024.100036.
+
+Subashini K, Narmatha V. Deep learning empowered phishing URL detection: an exhaustive approach. International Journal of Intelligent Systems and Applications in Engineering. 2024;12(14s):213–222.
+
+Subhashini N, Banerjee A, Kumar A, Muthulakshmi S, Revathi S. Deep learning based phishing website detection. Telkomnika (Telecommunication Computing Electronics and Control) 2024;22(1):113–121. doi: 10.12928/telkomnika.v22i1.25516.
+
+Ullah A, Shah RA, Nawaz SA, Ahmad N, Malik MH. Journal of Computing & Biomedical Informatics, Special Issue on Artificial Intelligence and Emerging Technologies (SICAIET) 2024. Enhancing phishing detection, leveraging deep learning techniques.
+
+Zhao H, Gao Y, Deng W. Defect detection using shuffle Net-CA-SSD lightweight network for turbine blades in IoT. IEEE Internet of Things Journal. 2024;11(20):32804–32812. doi: 10.1109/JIOT.2024.3409823.",No grants available
+40108268,Explainable TabNet ensemble model for identification of obfuscated URLs with features selection to ensure secure web browsing.,"Obfuscated and malicious URLs may lead to harmful content or actions to the system, such as downloading malware, phishing, scams, or adware. In the domain of cybersecurity, the identification of the obfuscated Uniform Resource Locator (URL) is a concerning facet. This study proposes a Robust unified TabNet ensemble model for the identification of Malicious URLs with feature extraction based on the computation of features' importance for classification. A fine-tuned attention-based deep neural network TabNet is used to extract the features of the URL. The customized data with the most important features is generated, and a Machine Learning (ML) ensemble model is developed for the classification of the URLs. The evaluation parameters accuracy, Precision, Recall, and F1-score are measured to look at the performance of the TabNet ensemble model. Accuracy of 97.8%, precision of 0.978, recall of 0.976, and F1-score of 0.978 reflect the outperforming results of the proposed model while classifying the five URL classes. The model is further validated through statistical analysis by measuring the Kappa value, which comes up as 0.968 for the proposed model. With a 10-fold cross-validation model, we attained a mean accuracy of 97.27% and a confidence interval of 0.004. The Local Interpretable Model-agnostic Explanations (LIME) explainable AI model is used to validate the model to perceive the contributing features towards the classification model. The results are compared with the state-of-the-art ML classifiers and the previous studies, and the whole validation process favors the proposed model's efficacy.",Scientific reports,"Naseer, Ullah, Saeed, Algarni, Zhao",2025,10.1038/s41598-025-93286-w,PMC11923084,https://pubmed.ncbi.nlm.nih.gov/40108268,"Rafsanjani, A. S. et al. Enhancing malicious url detection: A novel framework leveraging priority coefficient and feature evaluation. IEEE Access (2024).
+
+Mankar, N. P. et al. Comparative evaluation of machine learning models for malicious url detection. In 2024 MIT Art, Design and Technology School of Computing International Conference (MITADTSoCiCon), 1–7 (IEEE, 2024).
+
+Hani, R. B., Amoura, M., Ammourah, M., Khalil, Y. A. & Swailm, M. Malicious url detection using machine learning. In 2024 15th International Conference on Information and Communication Systems (ICICS), 1–5 (IEEE, 2024).
+
+Orozco-Fonseca, D., Marín, G. & Lara, A. Taxonomy of malicious url detection techniques. In International Conference on Information Technology & Systems, 73–81 (Springer, 2024).
+
+Zieni, R., Massari, L. & Calzarossa, M. C. Phishing or not phishing? a survey on the detection of phishing websites. IEEE Access11, 18499–18519 (2023).
+
+Aljahdalic, A. O., Banafee, S. & Aljohani, T. Url filtering using machine learning algorithms. Information Security Journal: A Global Perspective33, 193–203 (2024).
+
+Maftoun, M., Shadkam, N., Komamardakhi, S. S. S., Mansor, Z. & Joloudari, J. H. Malicious url detection using optimized hist gradient boosting classifier based on grid search method. arXiv preprintarXiv:2406.10286 (2024).
+
+Opara, C., Chen, Y. & Wei, B. Look before you leap: Detecting phishing web pages by exploiting raw url and html characteristics. Expert Systems with Applications236, 121183 (2024).
+
+Salman, R., Alzaatreh, A. & Sulieman, H. The stability of different aggregation techniques in ensemble feature selection. Journal of Big Data9, 51 (2022).
+
+Arora, R., Gupta, R. & Yadav, P. Utilizing ensemble learning to enhance the detection of malicious urls in the twitter dataset. In 2024 4th International Conference on Innovative Practices in Technology and Management (ICIPTM), 1–6 (IEEE, 2024).
+
+Mills, G. A., Acquah, D. K. & Sowah, R. A. Network intrusion detection and prevention system using hybrid machine learning with supervised ensemble stacking model. Journal of Computer Networks and Communications2024, 5775671 (2024).
+
+Dieber, J. & Kirrane, S. Why model why? assessing the strengths and limitations of lime. arXiv preprintarXiv:2012.00093 (2020).
+
+Van den Broeck, G., Lykov, A., Schleich, M. & Suciu, D. On the tractability of shap explanations. Journal of Artificial Intelligence Research74, 851–886 (2022).
+
+Dharmaraju, G., Kumar, T. N., Mohan, P. P., Pbv, R. R. & Lakshmanarao, A. Phishing website detection through ensemble machine learning techniques. In 2024 2nd International Conference on Computer, Communication and Control (IC4), 1–5 (IEEE, 2024).
+
+Newaz, A., Haq, F. S. & Ahmed, N. A sophisticated framework for the accurate detection of phishing websites. arXiv preprintarXiv:2403.09735 (2024).
+
+de Luna, R. G. et al. Improving cybersecurity: A comparative analysis of machine learning-based uniform resource locator (url) classification. In 2024 7th International Conference on Informatics and Computational Sciences (ICICoS), 78–83 (IEEE, 2024).
+
+Wabi, H. A., Ojeniyi, J. A., Idris, I. & Subairu, S. O. Stack ensemble model for detection of phishing website. In 2024 International Conference on Science, Engineering and Business for Driving Sustainable Development Goals (SEB4SDG), 1–6 (IEEE, 2024).
+
+Guo, J. et al. Tfl-dt: A trust evaluation scheme for federated learning in digital twin for mobile networks. IEEE Journal on Selected Areas in Communications (2023).
+
+Kaushal, V. & Sharma, S. Fairness-driven federated learning-based spam email detection using clustering techniques. Neural Computing and Applications 1–12 (2025).
+
+Adamova, A., Zhukabayeva, T., Mukanova, Z. & Oralbekova, Z. Enhancing internet of things security against structured query language injection and brute force attacks through federated learning. International Journal of Electrical & Computer Engineering (2088-8708)15 (2025).
+
+Poddar, S., Chowdhury, D., Dwivedi, A. D. & Mukkamala, R. R. Data driven based malicious url detection using explainable ai. In 2022 IEEE International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom), 1266–1272 (IEEE, 2022).
+
+Pavani, B. V., Mahitha, D. & Maheswari, B. U. Enhancing online safety: Phishing url detection using machine learning and explainable ai. In 2024 15th International Conference on Computing Communication and Networking Technologies (ICCCNT), 1–6 (IEEE, 2024).
+
+Calzarossa, M. C., Giudici, P. & Zieni, R. Explainable machine learning for phishing feature detection. Quality and Reliability Engineering International40, 362–373 (2024).
+
+Mittal, S. Explaining url phishing detection by glass box models. In Proceedings of the 2023 Fifteenth International Conference on Contemporary Computing, 537–544 (2023).
+
+Giri, S. & Banerjee, S. Ensemble learning approach for phishing website detection using an optimal greedy stacking model. Journal of The Institution of Engineers (India): Series B 1–10 (2024).
+
+Lee, D. K., In, J. & Lee, S. Standard deviation and standard error of the mean. Korean journal of anesthesiology68, 220–223 (2015).
+
+Patro, S. Normalization: A preprocessing stage. arXiv preprintarXiv:1503.06462 (2015).
+
+Arik, S. Ö. & Pfister, T. Tabnet: Attentive interpretable tabular learning. In Proceedings of the AAAI conference on artificial intelligence35, 6679–6687 (2021).
+
+Talib, M. A. et al. A tree-based explainable ai model for early detection of covid-19 using physiological data. BMC Medical Informatics and Decision Making24, 179 (2024).
+
+De Ville, B. Decision trees. Wiley Interdisciplinary Reviews: Computational Statistics5, 448–455 (2013).
+
+Shwartz-Ziv, R. & Armon, A. Tabular data: Deep learning is not all you need. Information Fusion81, 84–90 (2022).
+
+Lee, Y., Baruzzo, G., Kim, J., Seo, J. & Di Camillo, B. Validity of feature importance in low-performing machine learning for tabular biomedical data. arXiv preprintarXiv:2409.13342 (2024).
+
+Zhang, Z. Improved adam optimizer for deep neural networks. In 2018 IEEE/ACM 26th international symposium on quality of service (IWQoS), 1–2 (Ieee, 2018).
+
+Li, Z. & Arora, S. An exponential learning rate schedule for deep learning. arXiv preprintarXiv:1910.07454 (2019).
+
+Abro, A. A., Khan, A. A., Talpur, M. S. H., Kayijuka, I. & Yaşar, E. Machine learning classifiers: a brief primer. University of Sindh Journal of Information and Communication Technology5, 63–68 (2021).
+
+Sesmero, M. P., Ledezma, A. I. & Sanchis, A. Generating ensembles of heterogeneous classifiers using stacked generalization. Wiley interdisciplinary reviews: data mining and knowledge discovery5, 21–34 (2015).
+
+Chaudhary, A., Kolhe, S. & Kamal, R. An improved random forest classifier for multi-class classification. Information Processing in Agriculture3, 215–222 (2016).
+
+Nick, T. G. & Campbell, K. M. Logistic regression. Topics in biostatistics 273–301 (2007).
+
+Suthaharan, S. & Suthaharan, S. Support vector machine. Machine learning models and algorithms for big data classification: thinking with examples for effective learning 207–235 (2016).
+
+Intelligence, E. A., Rosa1, L. & Silva1, F. Check for. In Distributed Computing and Artificial Intelligence, Special Sessions, 19th International Conference, vol. 585, 93 (Springer Nature, 2023).
+
+Vieira, S. M., Kaymak, U. & Sousa, J. M. Cohen’s kappa coefficient as a performance measure for feature selection. In International conference on fuzzy systems, 1–8 (IEEE, 2010).
+
+Hsu, L. M. & Field, R. Interrater agreement measures: Comments on kappan, cohen’s kappa, scott’s [Image: see text] , and aickin’s [Image: see text]. Understanding Statistics2, 205–219 (2003).
+
+Mamun, M. S. I., Rathore, M. A., Lashkari, A. H., Stakhanova, N. & Ghorbani, A. A. Detecting malicious urls using lexical analysis. In Network and System Security: 10th International Conference, NSS 2016, Taipei, Taiwan, September 28-30, 2016, Proceedings 10, 467–482 (Springer, 2016).
+
+Sankaranarayanan, S., Sivachandran, A. T., Mohd Khairuddin, A. S., Hasikin, K. & Wahab Sait, A. R. An ensemble classification method based on machine learning models for malicious uniform resource locators (url). Plos one19, e0302196 (2024).
+
+Aslam, S., Aslam, H., Manzoor, A., Chen, H. & Rasool, A. Antiphishstack: Lstm-based stacked generalization model for optimized phishing url detection. Symmetry16, 248 (2024).
+
+Alsaffar, A. M., Nouri-Baygi, M. & Zolbanin, H. M. Shielding networks: enhancing intrusion detection with hybrid feature selection and stack ensemble learning. Journal of Big Data11, 133 (2024).
+
+Mushtaq, S., Javed, T. & Su’ud, M. M. Ensemble learning-powered url phishing detection: A performance driven approach. Journal of Informatics and Web Engineering3, 134–145 (2024).
+
+Yu, B. et al. Efficient classification of malicious urls: M-bert-a modified bert variant for enhanced semantic understanding. IEEE Access (2024).",No grants available
+39994324,An integrated CSPPC and BiLSTM framework for malicious URL detection.,"With the rapid development of the internet, phishing attacks have become more diverse, making phishing website detection a key focus in cybersecurity. While machine learning and deep learning have led to various phishing URL detection methods, many remain incomplete, limiting accuracy. This paper proposes CSPPC-BiLSTM, a malicious URL detection model based on BiLSTM (Bidirectional Long Short-Term Memory, BiLSTM). The model processes URL character sequences through an embedding layer and captures contextual information via BiLSTM. By integrating CBAM (Convolutional Block Attention Module, CBAM), it applies channel and spatial attention to highlight key features and transforms URL sequence features into a spatial matrix. The SPP (Spatial Pyramid Pooling, SPP) module enables multi-scale pooling. Finally, a fully connected layer fuses features, and dropout regularization enhances robustness. Compared to CharBiLSTM, CSPPC-BiLSTM significantly improves detection accuracy. Evaluated on two datasets, Grambedding (balanced) and Mendeley AK Singh 2020 phish (imbalanced)-and compared with six baselines, it demonstrates strong generalization and accuracy. Ablation experiments confirm the critical role of CBAM and SPP in boosting performance.",Scientific reports,"Zhou, Zhang, Bilal, Zhou, Fan, Pan, Xie, Peng",2025,10.1038/s41598-025-91148-z,PMC11850714,https://pubmed.ncbi.nlm.nih.gov/39994324,"Atrees, M., Ahmad, A. & Alghanim, F. Enhancing Detection of Malicious URLs Using Boosting and Lexical Features 31 (Intelligent Automation & Soft Computing, 2022). 3.
+
+Vanhoenshoven, F. et al. Detecting malicious URLs using machine learning techniques. In 2016 IEEE Symposium Series on Computational Intelligence (SSCI). IEEE, 1–8 (2016).
+
+Wei, W. et al. Accurate and fast URL phishing detector: A convolutional neural network approach. Comput. Netw.178, 107275 (2020).
+
+Afzal, S. et al. Urldeepdetect: A deep learning approach for detecting malicious urls using semantic vector models. J. Netw. Syst. Manag.29, 1–27 (2021).
+
+Wang, H. et al. Bidirectional LSTM malicious webpages detection algorithm based on convolutional neural network and independent recurrent neural network. Appl. Intell.49, 3016–3026 (2019).
+
+Le, H. et al. URLNet: Learning a URL representation with deep learning for malicious URL detection. ArXiv Preprint (2018). arXiv:1802.03162.
+
+Liang, Y. et al. Robust detection of malicious urls with self-paced wide & deep learning. IEEE Trans. Depend. Secur. Comput.19 (2), 717–730 (2021).
+
+Wu, T. et al. Malicious url detection model based on bidirectional gated recurrent unit and attention mechanism. Appl. Sci.12 (23), 12367 (2022).
+
+Nanda, M. & Goel, S. URL based phishing attack detection using BiLSTM-gated highway attention block convolutional neural network. Multimed. Tools Appl., 1–31. (2024).
+
+Liu, R. et al. Malicious URL detection via pretrained Language model guided Multi-Level feature attention network. arXiv preprint arXiv:2311.12372 (2023).
+
+Mahdaouy, A. E. et al. DomURLs_BERT: Pre-trained BERT-based model for malicious domains and URLs detection and classification. arXiv preprint arXiv:2409.09143 (2024).
+
+Nowroozi, E., Mohammadi, M. & Conti, M. An adversarial attack analysis on malicious advertisement URL detection framework. IEEE Trans. Netw. Serv. Manag.20 (2), 1332–1344 (2022).
+
+Zhu, E. et al. CCBLA: a lightweight phishing detection model based on CNN, BiLSTM, and attention mechanism. Cogn. Comput.15 (4), 1320–1333 (2023).
+
+Tsai, Y. D. et al. Toward more generalized malicious url detection models. Proc. AAAI Conf. Artif. Intell. 38 (19), 21628–21636 (2024).
+
+Jeeva, S. C. & Rajsingh, E. B. Intelligent phishing url detection using association rule mining. Hum.-Cent. Comput. Inform. Sci.6, 1–19 (2016).
+
+Lee¹, O. V. et al. A malicious urls detection system using optimization and machine learning classifiers. Indones. J. Electr. Eng. Comput. Sci.17 (3), 1210–1214 (2020).
+
+AlEroud, A. & Karabatis, G. Bypassing detection of URL-based phishing attacks using generative adversarial deep neural networks. In Proceedings of the Sixth International Workshop on Security and Privacy Analytics, 53–60 (2020).
+
+Karajgar, M. D. et al. Comparison of machine learning models for identifying malicious URLs. In 2024 IEEE International Conference on Information Technology, Electronics and Intelligent Communication Systems (ICITEICS). IEEE, 1–5. (2024).
+
+Ozcan, A. et al. A hybrid DNN–LSTM model for detecting phishing urls. Neural Comput. Appl., 1–17 (2023).
+
+Remya, S. et al. An Effective Detection Approach for Phishing URL Using ResMLP (IEEE Access, 2024).
+
+Islam, M. S. et al. WebGuardML: Safeguarding users with malicious URL detection using machine learning. In 2023 26th International Conference on Computer and Information Technology (ICCIT). IEEE, 1–6. (2023).
+
+Mia, M., Derakhshan, D. & Pritom, M. M. A. Can features for phishing URL detection be trusted across diverse datasets? A case study with explainable AI. In Proceedings of the 11th International Conference on Networking, Systems, and Security. 137–145 (2024).
+
+Kaushik, P. & Rathore, S. P. S. Deep learning multi-agent model for phishing cyber-attack detection. Int. J. Recent. Innov. Trends Comput. Commun. 11 (9s), 680–686 (2023).
+
+Su, M. Y. & Su, K. L. BERT-Based approaches to identifying malicious urls. Sensors23 (20), 8499 (2023).
+
+Geyik, B., Erensoy, K. & Kocyigit, E. Detection of phishing websites from urls by using classification techniques on WEKA. In 6th Int. Conf. Inventive Comput. Technol. (ICICT). IEEE (2021), 120–125 (2021).
+
+Taofeek, A. O. Development of a novel approach to phishing detection using machine learning. ATBU J. Sci. Technol. Educ.12 (2), 336–351 (2024).
+
+Schuster, M. & Paliwal, K. K. Bidirectional recurrent neural networks. IEEE Trans. Signal Process.45 (11), 2673–2681 (1997).
+
+Hochreiter, S. et al. Long short-term memory. Neural Computation MIT-Press, Cbam: Convolutional block attention module. In Proceedings of the European Conference on Computer Vision (ECCV). 2018, 3–19. (1997).
+
+Woo, S. et al. Cbam: Convolutional block attention module. In Proceedings of the European Conference on Computer Vision (ECCV). : 3–19 (2018).
+
+Zhao, H. et al. Pyramid scene parsing network. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2881–2890 (2017).
+
+Bozkir, A. S., Dalgic, F. C. & Aydos, M. GramBeddings: A new neural network for URL based identification of phishing web pages through n-gram embeddings. Comput. Secur.124, 102964 (2023).
+
+Singh, A. K. Dataset of Malicious and Benign Webpages (Mendeley Data, 2020).",No grants available
+39448673,Phishing URL detection with neural networks: an empirical study.,"Cybercriminals create phishing websites that mimic legitimate websites to get sensitive information from companies, individuals, or governments. Therefore, using state-of-the-art artificial intelligence and machine learning technologies to correctly classify phishing and legitimate URLs is imperative. We report the results of applying deterministic and probabilistic neural network models to URL classification. Key achievements of this work are: (1) The development of a unique approach based on probabilistic neural networks that improves classification accuracy. (2) We show for the first time in URL phishing research that a machine learning model trained on a combination of open source and private datasets is successful in production. The dataset is constructed from open sources like Alexa, PhishTank, or OpenPhish and, most importantly, real-world production data from EasyDMARC. The daily validation of the model using daily reported URL data and corresponding labels, both from open-source platforms and private production, reach on average a 97% accuracy on the validation dataset, labeled by PhishTank, OpenPhish and EasdDMARC where possible mislabeled data can not be excluded and was not possible to check due to large number of URLs. Feature engineering was done without third-party dependencies. Lastly, the evaluation of both deterministic and probabilistic models shows high accuracy on short and long URLs, where short URLs are defined as having less than 50 characters.",Scientific reports,"Ghalechyan, Israyelyan, Arakelyan, Hovhannisyan, Davtyan",2024,10.1038/s41598-024-74725-6,PMC11502860,https://pubmed.ncbi.nlm.nih.gov/39448673,"Phishing activity trends report: 1st quarter 2022 (Anti-Phishing Working Group, 2022). http://docs.apwg.org/reports/apwg_trends_report_q1_2022.pdf. Accessed: 2022-08-17.
+
+Phishing activity trends report: 1st quarter 2012 (Anti-Phishing Working Group, 2022). http://docs.apwg.org/reports/apwg_trends_report_q1_2012.pdf. Accessed: 2022-08-17.
+
+Phishing Landscape . https://interisle.net/PhishingLandscape2022.pdf. Accessed: 2022-08-28 (2022)
+
+Phishing activity trends report, 1st quarter . https://docs.apwg.org/reports/apwg_trends_report_q1_2021.pdf. Accessed: 2022-08-28. (2021)
+
+Carroll, F., Adejobi, J. A. & Montasari, R. How good are we at detecting a phishing attack? Investigating the evolving phishing attack email and why it continues to successfully deceive society. SN Comput. Sci.3, 1–10 (2022).
+
+X-Force threat intelligence index . https://www.ibm.com/downloads/cas/ADLMYLAZ. Accessed: 2022-08-28. (2022)
+
+Franken-phish: TodayZoo built from other phishing kits. https://www.microsoft.com/en-us/security/blog/2021/10/21/franken-phish-todayzoo-built-from-other-phishing-kits/. Accessed: 2022-08-28.
+
+State of IoT 2022: Number of connected IoT devices growing 18% to 14.4 billion globally. https://iot-analytics.com/number-connected-iot-devices/. Accessed: 2022-08-28.
+
+Abbas, S. G. et al. Identifying and mitigating phishing attack threats in IoT use cases using a threat modelling approach. Sensors 21, 4816 (2021).
+
+Nirmal, K., Janet, B. & Kumar, R. Analyzing and eliminating phishing threats in IoT, network and other web applications using iterative intersection. Peer-to-Peer Netw. Appl. 14, 2327 (2021).
+
+Sheng, S. et al. An empirical analysis of phishing blacklists. InProceedings of 6th Conference on Email and AntiSpam (CEAS 2009) (2009).
+
+Chou, N., Ledesma, R., Teraguchi, Y. & Mitchell, J. C. Client-side defense against web-based identity theft (2004).
+
+Prakash, P., Kumar, M., Kompella, R. & Gupta, M. PhishNet: Predictive blacklisting to detect phishing attacks 1–5. 10.1109/INFCOM.2010.5462216 (2010).
+
+Drury, V., Lux, L. & Meyer, U. Dating phish: An analysis of the life cycles of phishing attacks and campaigns. In Proceedings of the 17th International Conference on Availability, Reliability and Security, ARES ’22 (Association for Computing Machinery, 2022). 10.1145/3538969.3538997.
+
+Rao, R. & Pais, A. An Enhanced Blacklist Method to Detect Phishing Websites 323–333 (2017).
+
+Chu, W., Zhu, B. B., Xue, F., Guan, X. & Cai, Z. Protect sensitive sites from phishing attacks using features extractable from inaccessible phishing URLs. In 2013 IEEE International Conference on Communications (ICC) 1990–1994. 10.1109/ICC.2013.6654816 (2013).
+
+Opara, C., Chen, Y. & Wei, B. Look before you leap: Detecting phishing web pages by exploiting raw URL and HTML characteristics. 10.48550/ARXIV.2011.04412 (2020).
+
+Who is lookup. https://whois.domaintools.com/. Accessed: 2022-08-28.
+
+Page, L., Brin, S., Motwani, R. & Winograd, T. The PageRank Citation Ranking: Bringing Order to the Web. Tech. Rep. (Stanford InfoLab, 1999).
+
+7 ways to identify a phishing website. https://easydmarc.com/blog/7-ways-to-identify-a-phishing-website/. Accessed: 2022-08-28.
+
+Reuvid, J. The Secure Online Business Handbook: E-commerce, IT Functionality & Business Continuity (Gale virtual reference library, Kogan Page, 2005).
+
+Dua, S. & Du, X. Data Mining and Machine Learning in Cybersecurity (CRC Press, 2016).
+
+Thomas, T., Vijayaraghavan, A. & Emmanuel, S. Machine Learning Approaches in Cyber Security Analytics (Springer Nature Singapore, 2019).
+
+Alazab, M. & Tang, M. Deep Learning Applications for Cyber Security. Advanced Sciences and Technologies for Security Applications (Springer International Publishing, 2019).
+
+Gupta, B. & Sheng, Q. Machine Learning for Computer and Cyber Security: Principle, Algorithms, and Practices (Cyber Ecosystem and Security, CRC Press, 2019).
+
+Montasari, R. & Jahankhani, H. Artificial Intelligence in Cyber Security: Impact and Implications: Security Challenges, Technical and Ethical Issues Advanced sciences and Technologies For Security Applications, Forensic Investigative Challenges (Springer International Publishing AG, 2021).
+
+Chen, X., Susilo, W. & Bertino, E. Cyber Security Meets Machine Learning (Springer, 2021).
+
+Abdul Samad, S. R. et al. Analysis of the performance impact of fine-tuned machine learning model for phishing url detection. Electronics 12, 1642 (2023).
+
+Karim, A., Shahroz, M., Mustofa, K., Belhaouari, S. B. & Joga, S. R. K. Phishing detection system through hybrid machine learning based on url. IEEE Access 11, 36805–36822 (2023).
+
+Mamun, M. S. I., Rathore, M. A., Lashkari, A. H., Stakhanova, N. & Ghorbani, A. A. Detecting malicious URLs using lexical analysis. In International Conference on Network and System Security 467–482 (Springer, 2016).
+
+Purbay, M. & Kumar, D. Split behavior of supervised machine learning algorithms for phishing url detection. In Advances in VLSI, Communication, and Signal Processing (eds Harvey, D. et al.) 497–505 (Springer Singapore, 2021).
+
+Shirazi, H., Bezawada, B. & Ray, I. “Kn0w Thy Doma1n Name” unbiased phishing detection using domain name based features. In Proceedings of the 23nd ACM on Symposium on Access Control Models and Technologies 69–75 (2018).
+
+Lin, Y. et al. Phishpedia: a hybrid deep learning based approach to visually identify phishing webpages. In 30th USENIX Security Symposium (USENIX Security 21) 3793–3810 (2021).
+
+Jain, A. K., Debnath, N. & Jain, A. K. APuML: An efficient approach to detect mobile phishing webpages using machine learning. Wireless Personal Communications 1–22 (2022).
+
+Aljofey, A. et al. An effective detection approach for phishing websites using URL and HTML features. Sci. Rep. 12, 1–19 (2022).
+
+Das Guptta, S., Shahriar, K. T., Alqahtani, H., Alsalman, D. & Sarker, I. H. Modeling hybrid feature-based phishing websites detection using machine learning techniques. Ann. Data Sci. 1–26 (2022).
+
+EasyDMARC. https://easydmarc.com/. Accessed: 2022-08-28.
+
+PhishTank. https://www.phishtank.com/. Cisco Talos Intelligence Group, Accessed: 2022-08-25.
+
+OpenPhish. https://openphish.com/. Accessed: 2022-08-28.
+
+Alexa dataset. http://s3-us-west-1.amazonaws.com/umbrella-static/top-1m.csv.zip. Accessed: 2022-08-28.
+
+Wang, W., Zhang, F., Luo, X. & Zhang, S. PDRCNN: precise phishing detection with recurrent convolutional neural networks. Security and Communication Networks 2019 (2019).
+
+Guo, B. et al. HinPhish: An effective phishing detection approach based on heterogeneous information networks. Appl. Sci. 11, 9733 (2021).
+
+Dua, D. & Graff, C. UCI Machine Learning Repository (2017).
+
+Ghodke, S. Alexa Top 1 Million Sites. https://www.kaggle.com/datasets/cheedcheed/top1m. Accessed: 2022-08-28.
+
+Phish Report. https://phish.report/contacts/OpenPhish. Accessed: 2022-08-28.
+
+Cisco Acquisitions. https://www.cisco.com/c/en/us/about/corporate-strategy-office/acquisitions.html. Accessed: 2022-08-28.
+
+TALOS. https://talosintelligence.com/. Accessed: 2022-08-28.
+
+Phishing URL check. https://easydmarc.com/tools/phishing-url. Accessed: 2022-08-28.
+
+Blundell, C., Cornebise, J., Kavukcuoglu, K. & Wierstra, D. Weight uncertainty in neural network. In International Conference on Machine Learning 1613–1622 (PMLR, 2015).",No grants available
+38820435,An ensemble classification method based on machine learning models for malicious Uniform Resource Locators (URL).,"Web applications are important for various online businesses and operations because of their platform stability and low operation cost. The increasing usage of Internet-of-Things (IoT) devices within a network has contributed to the rise of network intrusion issues due to malicious Uniform Resource Locators (URLs). Generally, malicious URLs are initiated to promote scams, attacks, and frauds which can lead to high-risk intrusion. Several methods have been developed to detect malicious URLs in previous works. There has been a good amount of work done to detect malicious URLs using various methods such as random forest, regression, LightGBM, and more as reported in the literature. However, most of the previous works focused on the binary classification of malicious URLs and are tested on limited URL datasets. Nevertheless, the detection of malicious URLs remains a challenging task that remains open to research. Hence, this work proposed a stacking-based ensemble classifier to perform multi-class classification of malicious URLs on larger URL datasets to justify the robustness of the proposed method. This study focuses on obtaining lexical features directly from the URL to identify malicious websites. Then, the proposed stacking-based ensemble classifier is developed by integrating Random Forest, XGBoost, LightGBM, and CatBoost. In addition, hyperparameter tuning was performed using the Randomized Search method to optimize the proposed classifier. The proposed stacking-based ensemble classifier aims to take advantage of the performance of each machine learning model and aggregate the output to improve prediction accuracy. The classification accuracies of the machine learning model when applied individually are 93.6%, 95.2%, 95.7% and 94.8% for random forest, XGBoost, LightGBM, and CatBoost respectively. The proposed stacking-based ensemble classifier has shown significant results in classifying four classes of malicious URLs (phishing, malware, defacement, and benign) with an average accuracy of 96.8% when benchmarked with previous works.",PloS one,"Sankaranarayanan, Sivachandran, Mohd Khairuddin, Hasikin, Wahab Sait",2024,10.1371/journal.pone.0302196,PMC11142511,https://pubmed.ncbi.nlm.nih.gov/38820435,"Liu Z, Jin Z, Shangguan C. IoT terminal security assessment system based on improved assessment method. PLoS ONE. 2021; 16(9). doi: 10.1371/journal.pone.0256881
+
+Bahaa A, Sayed A, Elfangary L, Fahmy H. A novel hybrid optimization enabled robust CNN algorithm for an IoT network intrusion detection approach. PLoS ONE. 2022; 17(12) doi: 10.1371/journal.pone.0278493
+
+Zhou J, Cui H, Li X, Yang W, Wu X. A novel phishing website detection model based on LightGBM and domain name features. Symmetry. 2023; 15(180). doi: 10.3390/sym15010180
+
+Hilal M, Abdalla Hashim AH, Mohamed AH, Nour MK, Asiri MM, et al.. Malicious url classification using artificial fish swarm optimization and deep learning. Computers, Materials & Continua. 2023; 74(1):607–621.
+
+Abu Al-Haija Q, Al-Fayoumi M: An intelligent identification and classification system for malicious uniform resource locators (URLs). Neural Comput & Applic. 2023; 35: 16995–17011. doi: 10.1007/s00521-023-08592-z
+
+Djaballah KA, Boukhalfa K, Ghalem Z, Boukerma O. A new approach for the detection and analysis of phishing in social networks: the case of Twitter. In 2020 Seventh International Conference on Social Networks Analysis, Management and Security (SNAMS). 2020; 1–8.
+
+Subasi A, Balfaqih M, Balfagih Z, Alfawwaz K. A comparative evaluation of ensemble classifiers for malicious webpage detection. Procedia Computer Science. 2021; 194: 272–279.
+
+Johnson C, Khadka B, Basnet RB, Doleck T. Towards detecting and classifying malicious URLs using deep learning. J. Wirel. Mob. Networks Ubiquitous Comput. Dependable Appl. 2020; 11(4): 31–48.
+
+Tie L, Gang K, Yi P. Improving malicious URLs detection via feature engineering: Linear and nonlinear space transformation methods. Information Systems. 2020; 91(101494).
+
+Hasane Ahammad SK, Sunil DK, Gopal DU, Sandeep DP, Venkatesh Babu E, Amol VD, Dilip Kumar JB. Phishing URL detection using machine learning methods. Advances in Engineering Software. 2022; 173 (103288). doi: 10.1016/j.advengsoft.2022.103288
+
+Chiramdasu R, Srivastava G, Bhattacharya S, Reddy PK, Gadekallu TR. Malicious URL detection using logistic regression, 2021 IEEE International Conference on Omni-Layer Intelligent Systems (COINS), Barcelona, Spain. 2021; 1–6. doi: 10.1109/COINS51742.2021.9524269
+
+Hossain F, Islam L, Uddin MN. PhishRescue: A stacked ensemble model to identify phishing website using lexical features, 5th International Conference of Computer and Informatics Engineering (IC2IE). 2022; 342–347.
+
+Indrasiri PL, Halgamuge MN, Mohammad A. Robust ensemble machine learning model for filtering phishing URLs: Expandable random gradient stacked voting classifier (ERG-SVC). IEEE Access. 2021; 9:150142–150161.
+
+Bustio-Martínez L, Álvarez-Carmona MA, Herrera-Semenets V, Feregrino-Uribe C, Cumplido R. A lightweight data representation for phishing URLs detection in IoT environments. Information Sciences. 2022; 603: 42–59. doi: 10.1016/j.ins.2022.04.059
+
+Nasir N, Kansal A, Alshaltone O, Barneih F, Sameer M, Shanableh A, et al.. Water quality classification using machine learning algorithms. Journal of Water Process Engineering. 2022; 48 (102920). doi: 10.1016/j.jwpe.2022.102920
+
+Chen J, Hu Z, Qian Z. Research on malicious URL detection based on random forest. 14th International Conference on Computer Research and Development (ICCRD). 2022; 30–36.
+
+Junos MH, Mohd Khairuddin AS, Dahari M. Automated object detection on aerial images for limited capacity embedded device using a lightweight CNN model. Alexandria Engineering Journal. 2022; 61 (8): 6023–6041. doi: 10.1016/j.aej.2021.11.027
+
+Manzil HHR, Manohar Naik S. Android malware category detection using a novel feature vector-based machine learning model. Cybersecurity. 2023; 6 (6). doi: 10.1186/s42400-023-00139-y
+
+Rupa CH, Srivastava G, Bhattacharya S, Reddy P, Gadekallu TR. A machine learning driven threat intelligence system for malicious URL detection. 16th International Conference on Availability, Reliability and Security. Vienna, Austria. 2021; 1–7. doi: 10.1145/3465481.3470029
+
+Upendri SDR, Patil A, Mohana. Malicious URL Detection and Classification Analysis using Machine Learning Models. International Conference on Intelligent Data Communication Technologies and Internet of Things, Bengaluru, India. 2023; 470–476. doi: 10.1109/IDCIoT56793.2023.10053422",No grants available
+37765815,Classification of Malicious URLs Using Machine Learning.,"Amid the rapid proliferation of thousands of new websites daily, distinguishing safe ones from potentially harmful ones has become an increasingly complex task. These websites often collect user data, and, without adequate cybersecurity measures such as the efficient detection and classification of malicious URLs, users' sensitive information could be compromised. This study aims to develop models based on machine learning algorithms for the efficient identification and classification of malicious URLs, contributing to enhanced cybersecurity. Within this context, this study leverages support vector machines (SVMs), random forests (RFs), decision trees (DTs), and k-nearest neighbors (KNNs) in combination with Bayesian optimization to accurately classify URLs. To improve computational efficiency, instance selection methods are employed, including data reduction based on locality-sensitive hashing (DRLSH), border point extraction based on locality-sensitive hashing (BPLSH), and random selection. The results show the effectiveness of RFs in delivering high precision, recall, and F1 scores, with SVMs also providing competitive performance at the expense of increased training time. The results also emphasize the substantial impact of the instance selection method on the performance of these models, indicating its significance in the machine learning pipeline for malicious URL classification.","Sensors (Basel, Switzerland)","Abad, Gholamy, Aslani",2023,10.3390/s23187760,PMC10537824,https://pubmed.ncbi.nlm.nih.gov/37765815,"Gupta B.B., Yadav K., Razzak I., Psannis K., Castiglione A., Chang X. A Novel Approach for Phishing URLs Detection Using Lexical Based Machine Learning in a Real-Time Environment. Comput. Commun. 2021;175:47–57. doi: 10.1016/j.comcom.2021.04.023.
+
+Veale M., Brown I. Cybersecurity. Internet Policy Rev. 2020;9:2. doi: 10.14763/2020.4.1533.
+
+Ahammad S.H., Kale S.D., Upadhye G.D., Pande S.D., Babu E.V., Dhumane A.V., Bahadur M.D.K.J. Phishing URL Detection Using Machine Learning Methods. Adv. Eng. Softw. 2022;173:103288. doi: 10.1016/j.advengsoft.2022.103288.
+
+Wardman B., Clemens D., Wolnski J., Inc-San Jose P., States U., States S.D.-U. Phorecasting Phishing Attacks: A New Approach for Predicting the Appearance of Phishing Websites. Cyber-Secur. Digit. 2016;142:142–154. doi: 10.17781/P002156.
+
+Virvilis N., Mylonas A., Tsalis N., Gritzalis D. Security Busters: Web Browser Security vs. Rogue Sites. Comput. Secur. 2015;52:90–105. doi: 10.1016/j.cose.2015.04.009.
+
+Sahoo D., Liu C., Hoi S.C.H. Malicious URL Detection Using Machine Learning: A Survey. arXiv. 20191701.07179
+
+Singh A., Thakur N., Sharma A. A Review of Supervised Machine Learning Algorithms; Proceedings of the 2016 3rd International Conference on Computing for Sustainable Global Development (INDIACom); New Delhi, India. 16–18 March 2016; pp. 1310–1315.
+
+Aslani M., Seipel S. A Fast Instance Selection Method for Support Vector Machines in Building Extraction. Appl. Soft Comput. 2020;97:106716. doi: 10.1016/j.asoc.2020.106716.
+
+Aslani M., Seipel S. Efficient and Decision Boundary Aware Instance Selection for Support Vector Machines. Inf. Sci. 2021;577:579–598. doi: 10.1016/j.ins.2021.07.015.
+
+Li Y., Yang Z., Chen X., Yuan H., Liu W. A Stacking Model Using URL and HTML Features for Phishing Webpage Detection. Future Gener. Comput. Syst. 2019;94:27–39. doi: 10.1016/j.future.2018.11.004.
+
+Saleem Raja A., Vinodini R., Kavitha A. Lexical Features Based Malicious URL Detection Using Machine Learning Techniques. Mater. Today Proc. 2021;47:163–166. doi: 10.1016/j.matpr.2021.04.041.
+
+Habib_Mrad-Detection Malicious URL Using ML Models.  [(accessed on 7 April 2023)].  Available online:  https://kaggle.com/code/habibmrad1983/habib-mrad-detection-malicious-url-using-ml-models.
+
+Aljabri M., Alhaidari F., Mohammad R.M.A., Mirza S., Alhamed D.H., Altamimi H.S., Chrouf S.M.B. An Assessment of Lexical, Network, and Content-Based Features for Detecting Malicious URLs Using Machine Learning and Deep Learning Models. Comput. Intell. Neurosci. 2022;2022:3241216. doi: 10.1155/2022/3241216.
+
+Upendra Shetty D.R., Patil A., Mohana Malicious URL Detection and Classification Analysis Using Machine Learning Models; Proceedings of the 2023 International Conference on Intelligent Data Communication Technologies and Internet of Things (IDCIoT); Bengaluru, India. 5–7 January 2023; pp. 470–476.
+
+Sharma H., Kumar S. A Survey on Decision Tree Algorithms of Classification in Data Mining. Int. J. Sci. Res. 2016;5:2094–2097.
+
+Alam M.S., Vuong S.T. Random Forest Classification for Detecting Android Malware; Proceedings of the 2013 IEEE International Conference on Green Computing and Communications and IEEE Internet of Things and IEEE Cyber, Physical and Social Computing; Washington, DC, USA. 20–23 August 2013; pp. 663–669.
+
+Cortes C., Vapnik V. Support-Vector Networks. Mach. Learn. 1995;20:273–297. doi: 10.1007/BF00994018.
+
+Adeyemi A., Mosavi A. Domain Driven Data Mining—Application to Business. Int. J. Comput. Sci. Issues. 2010;7:41–44.
+
+Hutter F., Kotthoff L., Vanschoren J., editors. Automated Machine Learning: Methods, Systems, Challenges. Springer International Publishing; Cham, Switzerland: 2019. (The Springer Series on Challenges in Machine Learning).
+
+Wang S., Yu J., Lapira E., Lee J. A Modified Support Vector Data Description Based Novelty Detection Approach for Machinery Components. Appl. Soft Comput. 2013;13:1193–1205. doi: 10.1016/j.asoc.2012.11.005.
+
+Shahriari B., Swersky K., Wang Z., Adams R.P., de Freitas N. Taking the Human Out of the Loop: A Review of Bayesian Optimization. Proc. IEEE. 2016;104:148–175. doi: 10.1109/JPROC.2015.2494218.
+
+Ding C., Peng H. Minimum Redundancy Feature Selection from Microarray Gene Expression Data. J. Bioinform. Comput. Biol. 2005;3:185–205. doi: 10.1142/S0219720005001004.",No grants available
+37362563,An intelligent identification and classification system for malicious uniform resource locators (URLs).,"Uniform Resource Locator (URL) is a unique identifier composed of protocol and domain name used to locate and retrieve a resource on the Internet. Like any Internet service, URLs (also called websites) are vulnerable to compromise by attackers to develop Malicious URLs that can exploit/devastate the user's information and resources. Malicious URLs are usually designed with the intention of promoting cyber-attacks such as spam, phishing, malware, and defacement. These websites usually require action on the user's side and can reach users across emails, text messages, pop-ups, or devious advertisements. They have a potential impact that can reach, in some cases, to compromise the machine or network of the user, especially those arriving by email. Therefore, developing systems to detect malicious URLs is of great interest nowadays. This paper proposes a high-performance machine learning-based detection system to identify Malicious URLs. The proposed system provides two layers of detection. Firstly, we identify the URLs as either benign or malware using a binary classifier. Secondly, we classify the URL classes based on their feature into five classes: benign, spam, phishing, malware, and defacement. Specifically, we report on four ensemble learning approaches, viz. the ensemble of bagging trees (En_Bag) approach, the ensemble of k-nearest neighbor (En_kNN) approach, and the ensemble of boosted decision trees (En_Bos) approach, and the ensemble of subspace discriminator (En_Dsc) approach. The developed approaches have been evaluated on an inclusive and contemporary dataset for uniform resource locators (ISCX-URL2016). ISCX-URL2016 provides a lightweight dataset for detecting and categorizing malicious URLs according to their attack type and lexical analysis. Conventional machine learning evaluation measurements are used to evaluate the detection accuracy, precision, recall, F Score, and detection time. Our experiential assessment indicates that the ensemble of bagging trees (En_Bag) approach provides better performance rates than other ensemble methods. Alternatively, the ensemble of the k-nearest neighbor (En_kNN) approach provides the highest inference speed. We also contrast our En_Bag model with state-of-the-art solutions and show its superiority in binary classification and multi-classification with accuracy rates of 99.3% and 97.92%, respectively.",Neural computing & applications,"Abu Al-Haija, Al-Fayoumi",2023,10.1007/s00521-023-08592-z,PMC10117275,https://pubmed.ncbi.nlm.nih.gov/37362563,"Key Internet Statistics to Know in (2022) (Including Mobile) - BroadbandSearch.” [Online]. Available: https://www.broadbandsearch.net/blog/internet-statistics. Accessed: 04-Aug-2022.
+
+Reports PE, Trends PS, Measurement BP, Attacks, Targeted M, Sectors I, Quarter, (2022) [Online]. Available: https://docs.apwg.org/reports/apwg_trends_report_q1_2022.pdf. Accessed: 23-Jun-2022.
+
+Saleem Raja A, Vinodini R, Kavitha A. Lexical features based malicious URL detection using machine learning techniques. Mater Today: Proceed. 2021;47:163–166.
+
+Al-Fayoumi M, Alwidian J, Abusaif M, East IM. Intelligent Association Classification Technique for Phishing Website Detection. Int Arab J Inform Technol. 2020;17(4):163. doi: 10.34028/iajit/17/4/7.
+
+Haynes K, Shirazi H, Ray I. Lightweight URL-based phishing detection using natural language processing transformers for mobile devices. Procedia Computer Science. 2021;191:127–134. doi: 10.1016/j.procs.2021.07.040.
+
+R. Abdulraheem, A. Odeh, M. Al Fayoumi and I. Keshta, ""Efficient Email phishing detection using Machine learning,"" 2022 IEEE 12th Annual Computing and Communication Workshop and Conference (CCWC), Las Vegas, NV, USA, 2022, pp. 0354–0358. 10.1109/CCWC54503.2022.9720818
+
+Yaseen YA, Qasaimeh M, Al-Qassas RS, Al-Fayoumi M. E-mail fraud attack detection using hybrid machine learning approach. Recent Adv Comput Sci Commun. 2021;14(5):1370–1380. doi: 10.2174/2213275912666190617162707.
+
+Zahra SR, Chishti MA, Baba AI, Wu F. Detecting covid-19 chaos driven phishing/malicious URL attacks by a fuzzy logic and data mining based intelligence system. Egyptian Inform J. 2022;23(2):197–214. doi: 10.1016/j.eij.2021.12.003.
+
+Sayamber AB, Dixit AM. Malicious URL detection and identification. Int J Comput Appl. 2014;99(17):17–23.
+
+Ibrahim DR and Hadi AH (2017) Phishing websites prediction using classification techniques, in: Proceedings - 2017 International conference on new trends in computing sciences, ICTCS 2017, 2018-Janua, 133–137
+
+Subasi A, Molah E, Almkallawi F, Chaudhery TJ (2017) Intelligent phishing website detection using random forest classifier,I n: 2017 International conference on electrical and computing technologies and applications, ICECTA 2017, 2018-Janua, pp. 1–5,
+
+Peng T, Harris I, Sawa Y (2018) Detecting phishing attacks using natural language processing and machine learning, in: Proceedings - 12th IEEE international conference on semantic computing, ICSC 2018, 2018-Janua, pp. 300–301
+
+Patil V, Thakkar P, Shah C, Bhat T, Godse SP (2018) Detection and prevention of phishing websites using machine learning Approach,in: Proceedings - 2018 4th international conference on computing, communication control and automation, ICCUBEA 2018, pp. 2–6
+
+Patil D, Patil J. Feature-based malicious url and attack type detection using multi-class classification. The ISC Int J Inform Secur. 2018;10(2):141–162.
+
+Adebowale MA, Lwin KT, Sánchez E, Hossain MA. Intelligent web-phishing detection and protection scheme using integrated features of Images, frames and text. Expert Syst Appl. 2019;115:300–313. doi: 10.1016/j.eswa.2018.07.067.
+
+Yi P, Guan Y, Zou F, Yao Y, Wang W, Zhu T. Web phishing detection using a deep learning framework. Wireless Commun Mobile Comput. 2018 doi: 10.1155/2018/4678746.
+
+Zamir A, et al. Phishing web site detection using diverse machine learning algorithms. Electronic Library. 2020;38(1):65–80. doi: 10.1108/EL-05-2019-0118.
+
+Sahingoz OK, Buber E, Demir O, Diri B. Machine learning based phishing detection from URLs. Expert Syst Appl. 2019;117:345–357. doi: 10.1016/j.eswa.2018.09.029.
+
+Varaprasada Rao P, Govinda Rao S, Chandrasekhar Reddy P, Anil Kumar BS, Anil Kumar G. Detection of malicious uniform resource locator. Int J Recent Technol Eng. 2019;8:41–47.
+
+Dsouza, Rohan. Malicious URL (s) classification. Diss. Dublin, National College of Ireland, 2020. https://norma.ncirl.ie/4138/1/rohandsouza.pdf
+
+Saha I, Sarma D, Chakma RJ, Alam MN, Sultana A, Hossain S (2020) Phishing attacks detection using deep learning approach,in: Proceedings of the 3rd international conference on smart systems and inventive technology, ICSSIT 2020, Icssit, pp. 1180–1185
+
+Odeh A, Keshta I, Abdelfattah E. Efficient detection of phishing websites using multilayer perceptron. Int J Interact Mobile Technol. 2020;14(11):22–31. doi: 10.3991/ijim.v14i11.13903.
+
+Barlow L, Bendiab G, Shiaeles S, Savage N(2020) A novel approach to detect phishing attacks using binary visualisation and machine learning,in: proceedings - 2020 IEEE world congress on services, SERVICES 2020, pp. 177–182
+
+Xiao X, Zhang D, Hu G, Jiang Y, Xia S. CNN–MHSA: a convolutional neural network and multi-head self-attention combined approach for detecting phishing websites. Neural Netw. 2020;125:303–312. doi: 10.1016/j.neunet.2020.02.013.
+
+Shirazi H, Muramudalige SR, Ray I, and Jayasumana AP (2020) Improved Phishing Detection Algorithms using Adversarial Autoencoder Synthesized Data, in: proceedings - conference on local computer networks, LCN, vol. 2020-Novem, pp. 24–32
+
+Al-Haija QA, Badawi AA. URL-based phishing websites detection via machine learning. Int Conf Data Anal Business Ind (ICDABI) 2021;2021:644–649. doi: 10.1109/ICDABI53623.2021.9655851.
+
+Maini A, Kakwani N, Ranjitha B, Shreya MK, Bharathi R (2021) Improving the performance of semantic-based phishing detection system through ensemble learning method,in: 2021 IEEE Mysore Sub Section international conference, MysuruCon 2021, pp. 463–469
+
+Wang Z, Ren X, Li S, Wang B, Zhang J, Yang T. A malicious URL detection model based on convolutional neural network. Secur Netw. 2021 doi: 10.1155/2021/5518528.
+
+Manoj P, Bhuvan Kumar Y, Rakshitha D, Megha G. Detection and classification of phishing websites. Trends Comput Sci Inform Technol. 2021;6:053–059. doi: 10.17352/tcsit.000040.
+
+Abdulraheem R, Odeh A, Al Fayoumi M, Keshta I (2022) Efficient e-mail phishing detection using machine learning,in: 2022 IEEE 12th annual computing and communication workshop and conference, CCWC 2022, pp. 354–358
+
+URL dataset, by Canadian Institute for Cybersecurity (CIC). https://www.unb.ca/cic/datasets/url-2016.html
+
+Al-Haija QA, Gharaibeh M, Odeh A. Detection in adverse weather conditions for autonomous vehicles via deep learning. AI. 2022;3:303–331. doi: 10.3390/ai3020019.
+
+Huang S, Cai N, Pacheco PP, Narrandes S, Wang Y, et al. Applications of support vector machine (SVM) learning in cancer genomics. Cancer Genom - Proteom. 2018;15(1):41–51.
+
+Lubis AR, Lubis M. Optimization of distance formula in k-nearest neighbor method, Bullet Electrical Eng Inform. 2020;9(1):326–338. doi: 10.11591/eei.v9i1.1464.
+
+Abu Al-Haija Q, Al-Saraireh J. Asymmetric identification model for human-robot contacts via supervised learning. Symmetry. 2022;14:591. doi: 10.3390/sym14030591.
+
+Abu Al-Haija Q. Top-down machine learning-based architecture for cyberattacks identification and classification in IoT communication networks. Front Big Data. 2022;4:782902. doi: 10.3389/fdata.2021.782902.
+
+Tsogbaatar E, Bhuyan MH, Taenaka Y, Fall D, Gonchigsumlaa K, Elmroth E, Kadobayashi Y. DeL-IoT: A deep ensemble learning approach to uncover anomalies in IoT. Int Things. 2021;14:10031.
+
+Zidi S, Mihoub A, Qaisar SM, Krichen M, Al-Haija QA. Theft detection dataset for benchmarking and machine learning based classification in a smart grid environment. J King Saud Univ-Comput Inform Sc. 2022;35:13.
+
+Albulayhi K, et al. IoT intrusion detection using machine learning with a novel high performing feature selection method. Appl Sci. 2022;12:5015. doi: 10.3390/app1210501.
+
+Abu Al-Haija Q, Al-Badawi A. Attack-aware IoT network traffic routing leveraging ensemble learning. Sensors. 2022;22:241. doi: 10.3390/s22010241.
+
+Ibrahim DR, Hadi, AH (2017) Phishing websites prediction using classification techniques,in: International Conference on New Trendsin ComputingSciences (ICTCS’17), IEEE, pp.133–137
+
+Subasi A, Molah E, Almkallawi, F and Chaudhery, TJ (2017) Intelligent phishing website detection using random Forest classifier, International conference on electrical and computing technologies and applications (ICECTA ’17), IEEE, pp.1–5
+
+Peng T, Harris I, Sawa Y (2018) Detecting phishing attacks using natural language processing and machine learning,in: 2018 IEEE 12th inter. conference on semantic computing (ICSC), 2018, 300-301, 10.1109/ICSC.2018.00056
+
+Zamir A, Khan HU, Iqbal T, Yousaf N, Aslam F, Anjum A, Hamdani M. Phishing web site detection using diverse machine learning algorithms. Electron Libr. 2019;38(1):65–80. doi: 10.1108/EL-05-2019-0118.
+
+Barlow L, Bendiab G, Shiaeles S, Savage N. A novel approach to detect phishing attacks using binary visualisation and machine learning. IEEE World Congress on Serv (SERVICES) 2020;2020:177–182. doi: 10.1109/SERVICES48979.2020.00046.
+
+Al-Haija QA, McCurry CD, Zein-Sabatto S. A real time node connectivity algorithm for synchronous cyber physical and IoT network systems. SoutheastCon. 2020;2020:1–8. doi: 10.1109/SoutheastCon44009.2020.9249730.
+
+Tyagi S, and Mittal S (2020) Sampling approaches for imbalanced data classification problem in machine learning. Proceedings of ICRIC 2019. Springer, Cham, 2020. 209–221.",No grants available
+35645443,Applications of deep learning for phishing detection: a systematic literature review.,"Phishing attacks aim to steal confidential information using sophisticated methods, techniques, and tools such as phishing through content injection, social engineering, online social networks, and mobile applications. To avoid and mitigate the risks of these attacks, several phishing detection approaches were developed, among which deep learning algorithms provided promising results. However, the results and the corresponding lessons learned are fragmented over many different studies and there is a lack of a systematic overview of the use of deep learning algorithms in phishing detection. Hence, we performed a systematic literature review (SLR) to identify, assess, and synthesize the results on deep learning approaches for phishing detection as reported by the selected scientific publications. We address nine research questions and provide an overview of how deep learning algorithms have been used for phishing detection from several aspects. In total, 43 journal articles were selected from electronic databases to derive the answers for the defined research questions. Our SLR study shows that except for one study, all the provided models applied supervised deep learning algorithms. The widely used data sources were URL-related data, third party information on the website, website content-related data, and email. The most used deep learning algorithms were deep neural networks (DNN), convolutional neural networks, and recurrent neural networks/long short-term memory networks. DNN and hybrid deep learning algorithms provided the best performance among other deep learning-based algorithms. 72% of the studies did not apply any feature selection algorithm to build the prediction model. PhishTank was the most used dataset among other datasets. While Keras and Tensorflow were the most preferred deep learning frameworks, 46% of the articles did not mention any framework. This study also highlights several challenges for phishing detection to pave the way for further research.",Knowledge and information systems,"Catal, Giray, Tekinerdogan, Kumar, Shukla",2022,10.1007/s10115-022-01672-x,PMC9125357,https://pubmed.ncbi.nlm.nih.gov/35645443,"Abed W, Sharma S, Sutton R, Motwani A. A robust bearing fault detection and diagnosis technique for brushless DC motors under non-stationary operating conditions. J Control Autom Electr Syst. 2015;26(3):241–254. doi: 10.1007/s40313-015-0173-7.
+
+Adebowale MA, Lwin KT, Hossain MA. Intelligent phishing detection scheme using deep learning algorithms. J Enterp Inf Manag. 2020 doi: 10.1108/JEIM-01-2020-0036.
+
+Ali NB, Petersen K (2014) Evaluating strategies for study selection in systematic literature studies. In: Proceedings of the 8th ACM/IEEE international symposium on empirical software engineering and measurement, pp 1–4
+
+Aljofey A, Jiang Q, Qu Q, Huang M, Niyigena JP. An effective phishing detection model based on character level convolutional neural network from URL. Electronics. 2020;9(9):1514. doi: 10.3390/electronics9091514.
+
+Almomani A. Fast-flux hunter: a system for filtering online fast-flux botnet. Neural Comput Appl. 2018;29(7):483–493. doi: 10.1007/s00521-016-2531-1.
+
+Alom MZ, Taha TM (2017) Network intrusion detection for cyber security using unsupervised deep learning approaches. In: 2017 IEEE national aerospace and electronics conference (NAECON). IEEE, pp 63–69
+
+Amershi S, Begel A, Bird C, DeLine R, Gall H, Kamar E, Zimmermann T (2019) Software engineering for machine learning: a case study. In: 2019 IEEE/ACM 41st international conference on software engineering: software engineering in practice (ICSE-SEIP). IEEE, pp 291–300
+
+Amyar A, Modzelewski R, Li H, Ruan S. Multi-task deep learning based CT imaging analysis for COVID-19 pneumonia: Classification and segmentation. Comput Biol Med. 2020;126:104037. doi: 10.1016/j.compbiomed.2020.104037.
+
+APWG GA, Manning R (2020) APWG Phishing Reports
+
+Basili VR, Caldiera G, Rombach HD (1994) The goal question metric approach. Encyclopedia of software engineering, pp 528–532
+
+Basit A, Zafar M, Liu X, Javed AR, Jalil Z, Kifayat K. A comprehensive survey of AI-enabled phishing attacks detection techniques. Telecommun Syst. 2020;76:139–154. doi: 10.1007/s11235-020-00733-2.
+
+Benavides E, Fuertes W, Sanchez S, Sanchez M (2020) Classification of phishing attack solutions by employing deep learning techniques: a systematic literature review. In: Developments and advances in defense and security. Springer, Singapore, pp 51–64
+
+Bengio Y, Lamblin P, Popovici D, Larochelle H. Greedy layer-wise training of deep networks. Adv Neural Inf Process Syst. 2006;19:153–160.
+
+Berman DS, Buczak AL, Chavis JS, Corbett CL. A survey of deep learning methods for cyber security. Information. 2019;10(4):122. doi: 10.3390/info10040122.
+
+Catal C (2012) On the application of genetic algorithms for test case prioritization: a systematic literature review. In: Proceedings of the 2nd international workshop on Evidential assessment of software technologies, pp 9–14
+
+Catal C, Mishra D. Test case prioritization: a systematic mapping study. Software Qual J. 2013;21(3):445–478. doi: 10.1007/s11219-012-9181-z.
+
+Da Silva CMR, Feitosa EL, Garcia VC. Heuristic-based strategy for Phishing prediction: a survey of URL-based approach. Comput Secur. 2020;88:101613. doi: 10.1016/j.cose.2019.101613.
+
+Deng L. Three classes of deep learning architectures and their applications: a tutorial survey. APSIPA Trans Signal Inf Process. 2012;57:58.
+
+Deng L, Yu D. Deep learning: methods and applications. Found Trends Signal Process. 2014;7(3–4):197–387. doi: 10.1561/2000000039.
+
+Dou Z, Khalil I, Khreishah A, Al-Fuqaha A, Guizani M. Systematization of knowledge (SoK): a systematic review of software-based web phishing detection. IEEE Commun Surv Tutor. 2017;19(4):2797–2819. doi: 10.1109/COMST.2017.2752087.
+
+El Aassal A, Baki S, Das A, Verma RM. An in-depth benchmarking and evaluation of phishing detection research for security needs. IEEE Access. 2020;8:22170–22192. doi: 10.1109/ACCESS.2020.2969780.
+
+Emamgholizadeh S, Mohammadi B. New hybrid nature-based algorithm to integration support vector machine for prediction of soil cation exchange capacity. Soft Comput. 2021;25(21):13451–13464. doi: 10.1007/s00500-021-06095-4.
+
+Feng J, Zou L, Nan T. A phishing webpage detection method based on stacked autoencoder and correlation coefficients. J Comput Inf Technol. 2019;27(2):41–54. doi: 10.20532/cit.2019.1004702.
+
+Ferreira M (2019) Malicious URL detection using machine learning algorithms. In: Proc. Digit. Privacy Security Conf., pp 114–122
+
+Fukushima K, Miyake S (1982) Neocognitron: a self-organizing neural network model for a mechanism of visual pattern recognition. In: Competition and cooperation in neural nets. Springer, Berlin, Heidelberg, pp 267–285
+
+Gangavarapu T, Jaidhar CD, Chanduka B. Applicability of machine learning in spam and phishing email filtering: review and approaches. Artif Intell Rev. 2020;53:5019–5081. doi: 10.1007/s10462-020-09814-9.
+
+Gardner MW, Dorling SR. Artificial neural networks (the multilayer perceptron)—a review of applications in the atmospheric sciences. Atmos Environ. 1998;32(14–15):2627–2636. doi: 10.1016/S1352-2310(97)00447-0.
+
+Glorot X, Bengio Y (2010) Understanding the difficulty of training deep feedforward neural networks. In: Proceedings of the thirteenth international conference on artificial intelligence and statistics, pp 249–256
+
+Goel D, Jain AK. Mobile phishing attacks and defence mechanisms: State of art and open research challenges. Comput Secur. 2018;73:519–544. doi: 10.1016/j.cose.2017.12.006.
+
+Goodfellow I, Bengio Y, Courville A, Bengio Y. Deep learning. Cambridge: MIT Press; 2016.
+
+Gowtham R, Krishnamurthi I. A comprehensive and efficacious architecture for detecting phishing webpages. Comput Secur. 2014;40:23–37. doi: 10.1016/j.cose.2013.10.004.
+
+Greff K, Srivastava RK, Koutník J, Steunebrink BR, Schmidhuber J. LSTM: A search space odyssey. IEEE Trans Neural Netw Learn Syst. 2016;28(10):2222–2232. doi: 10.1109/TNNLS.2016.2582924.
+
+Hannousse A, Yahiouche S. Towards benchmark datasets for machine learning based website phishing detection: an experimental study. Eng Appl Artif Intell. 2021;104:104347. doi: 10.1016/j.engappai.2021.104347.
+
+Hassler E, Carver JC, Kraft NA, Hale D (2014) Outcomes of a community workshop to identify and rank barriers to the systematic literature review process. In: Proceedings of the 18th international conference on evaluation and assessment in software engineering, pp 1–10
+
+Hochreiter S, Schmidhuber J. Long short-term memory. Neural Comput. 1997;9(8):1735–1780. doi: 10.1162/neco.1997.9.8.1735.
+
+Hornik K, Stinchcombe M, White H. Multilayer feedforward networks are universal approximators. Neural Netw. 1989;2(5):359–366. doi: 10.1016/0893-6080(89)90020-8.
+
+Hrasko R, Pacheco AG, Krohling RA. Time series prediction using restricted boltzmann machines and backpropagation. Procedia Comput Sci. 2015;55:990–999. doi: 10.1016/j.procs.2015.07.104.
+
+Khonji M, Iraqi Y, Jones A. Phishing detection: a literature survey. IEEE Commun Surv Tutor. 2013;15(4):2091–2121. doi: 10.1109/SURV.2013.032213.00009.
+
+Kiruthiga R, Akila D. Phishing websites detection using machine learning. Int J Recent Technol Eng. 2019;8(2):111–114.
+
+Kitchenham B, Pearl Brereton O, Budgen D, Turner M, Bailey J, Linkman S. Systematic literature reviews in software engineering—a systematic literature review. Inf Softw Technol. 2009;51(1):7–15. doi: 10.1016/j.infsof.2008.09.009.
+
+Kitchenham BA, Budgen D, Brereton P. Evidence-based software engineering and systematic reviews. Boca Raton: CRC Press; 2015.
+
+Li Q, Cheng M, Wang J, Sun B. LSTM based 3 data. IEEE Trans Big Data. 2020;8(1):278–288. doi: 10.1109/TBDATA.2020.2978915.
+
+Mahdavifar S, Ghorbani AA. Application of deep learning to cybersecurity: a survey. Neurocomputing. 2019;347:149–176. doi: 10.1016/j.neucom.2019.02.056.
+
+Maurya S, Jain A. Deep learning to combat phishing. J Stat Manag Syst. 2020;23(6):945–957.
+
+Miles MB, Huberman AM, Saldaña J. Qualitative data analysis: a methods sourcebook. 4. Thousand Oaks: SAGE Publications Inc; 2019.
+
+Mohamed AR, Dahl G, Hinton G (2009) Deep belief networks for phone recognition. In: Nips workshop on deep learning for speech recognition and related applications, vol 1, no 9, p 39
+
+Mohammadi B, Guan Y, Moazenzadeh R, Safari MJS. Implementation of hybrid particle swarm optimization-differential evolution algorithms coupled with multi-layer perceptron for suspended sediment load estimation. CATENA. 2021;198:105024. doi: 10.1016/j.catena.2020.105024.
+
+Mohammed Harun Babu R, Vinayakumar R, Soman KP (2018) A short review on applications of deep learning for cyber security. arXiv preprint arXiv:1812.06292
+
+Nagaraj K, Bhattacharjee B, Sridhar A, Sharvani G (2018) Detection of phishing websites using a novel twofold ensemble model. J Syst Inf Technol.
+
+Pascanu R, Mikolov T, Bengio Y (2013) On the difficulty of training recurrent neural networks. In: International conference on machine learning, pp 1310–1318
+
+Peng Y, Tian S, Yu L, Lv Y, Wang R. A joint approach to detect malicious URL based on attention mechanism. Int J Comput Intell Appl. 2019;18(03):1950021. doi: 10.1142/S1469026819500214.
+
+Petersen K, Feldt R, Mujtaba S, Mattsson M (2008) Systematic mapping studies in software engineering. In: 12th international conference on evaluation and assessment in software engineering (EASE) 12, pp 1–10
+
+Petersen K, Vakkalanka S, Kuzniarz L. Guidelines for conducting systematic mapping studies in software engineering: an update. Inf Softw Technol. 2015;64:1–18. doi: 10.1016/j.infsof.2015.03.007.
+
+Qiu X, Zhang L, Ren Y, Suganthan PN, Amaratunga G (2014) Ensemble deep learning for regression and time series forecasting. In: 2014 IEEE symposium on computational intelligence in ensemble learning (CIEL). IEEE, pp 1–6
+
+Ramzan Z, Wüest C (2007) Phishing attacks: analyzing trends in 2006. In: CEAS
+
+Rao RS, Pais AR. Jail-Phish: an improved search engine based phishing detection system. Comput Secur. 2019;83:246–267. doi: 10.1016/j.cose.2019.02.011.
+
+Ravi R. A performance analysis of software defined network based prevention on phishing attack in cyberspace using a deep machine learning with CANTINA approach (DMLCA) Comput Commun. 2020;153:375–381. doi: 10.1016/j.comcom.2019.11.047.
+
+Sahoo D, Liu C, Hoi SC (2017) Malicious URL detection using machine learning: a survey. arXiv preprint arXiv:1701.07179
+
+Seydoux L, Balestriero R, Poli P, De Hoop M, Campillo M, Baraniuk R. Clustering earthquake signals and background noises in continuous seismic data with unsupervised deep learning. Nat Commun. 2020;11(1):1–12. doi: 10.1038/s41467-020-17841-x.
+
+Sharmeen S, Huda S, Abawajy J, Hassan MM. An adaptive framework against android privilege escalation threats using deep learning and semi-supervised approaches. Appl Soft Comput. 2020;89:106089. doi: 10.1016/j.asoc.2020.106089.
+
+Shrivastava V, Damodaran SS, Kamble M. Adalward: a deep-learning framework for multi-class malicious webpage detection. J Cyber Secur Technol. 2020;4:153–195. doi: 10.1080/23742917.2020.1714195.
+
+Singh C, Meenu (2020) Phishing website detection based on machine learning: a survey. In: 2020 6th international conference on advanced computing and communication systems (ICACCS). IEEE, pp 398–404
+
+Somesha M, Pais AR, Rao RS, Rathour VS. Efficient deep learning techniques for the detection of phishing websites. Sādhanā. 2020;45(1):1–18. doi: 10.1007/s12046-020-01392-4.
+
+Song L, Lin JP, Wang ZJ, Wang H. An end-to-end multi-task deep learning framework for skin lesion analysis. IEEE J Biomed Health Inform. 2020;24:2912–2921. doi: 10.1109/JBHI.2020.2973614.
+
+Sullins LL. Phishing for a solution: Domestic and international approaches to decreasing online identity theft. Emory Int'l L Rev. 2006;20:397.
+
+Sumathi K, Sujatha V. Deep learning based-phishing attack detection. Int J Recent Technol Eng (IJRTE) 2019;8(3):8428–8432. doi: 10.35940/ijrte.C6527.098319.
+
+Tarhan A, Giray G (2017) On the use of ontologies in software process assessment: a systematic literature review. In Proceedings of the 21st international conference on evaluation and assessment in software engineering, pp 2–11
+
+Torres-Soto J, Ashley EA. Multi-task deep learning for cardiac rhythm detection in wearable devices. NPJ Digital Med. 2020;3(1):1–8. doi: 10.1038/s41746-020-00320-4.
+
+Tummers J, Kassahun A, Tekinerdogan B. Obstacles and features of farm management information systems: a systematic literature review. Comput Electron Agric. 2019;157:189–204. doi: 10.1016/j.compag.2018.12.044.
+
+Varshney G, Misra M, Atrey PK. A survey and classification of web phishing detection schemes. Secur Commun Netw. 2016;9(18):6266–6284. doi: 10.1002/sec.1674.
+
+Vayansky I, Kumar S. Phishing–challenges and solutions. Comput Fraud Secur. 2018;2018(1):15–20. doi: 10.1016/S1361-3723(18)30007-1.
+
+Vinayakumar R, Soman KP, Poornachandran P. Evaluating deep learning approaches to characterize and classify malicious URL’s. J Intell Fuzzy Syst. 2018;34(3):1333–1343. doi: 10.3233/JIFS-169429.
+
+Vrbančič G, Fister I, Jr, Podgorelec V. Datasets for phishing websites detection. Data Brief. 2020;33:106438. doi: 10.1016/j.dib.2020.106438.
+
+Wang Y, Cai WD, Wei PC. A deep learning approach for detecting malicious JavaScript code. Secur Commun Netw. 2016;9(11):1520–1534. doi: 10.1002/sec.1441.
+
+Wang HH, Yu L, Tian SW, Peng YF, Pei XJ. Bidirectional LSTM Malicious webpages detection algorithm based on convolutional neural network and independent recurrent neural network. Appl Intell. 2019;49(8):3016–3026. doi: 10.1007/s10489-019-01433-4.
+
+Wang W, Zhang F, Luo X, Zhang S. PDRCNN: precise phishing detection with recurrent convolutional neural networks. Secur Commun Netw. 2019;2019:2595794. doi: 10.1155/2019/2595794.
+
+Wang L, Tong L, Davis D, Arnold T, Esposito T. The application of unsupervised deep learning in predictive models using electronic health records. BMC Med Res Methodol. 2020;20(1):1–9. doi: 10.1186/s12874-020-00923-1.
+
+Wei X, Wei X, Kong X, Lu S, Xing W, Lu W. FMixCutMatch for semi-supervised deep learning. Neural Netw. 2020;133:166–176. doi: 10.1016/j.neunet.2020.10.018.
+
+Wohlin C (2014) Guidelines for snowballing in systematic literature studies and a replication in software engineering. In: Proceedings of the 18th international conference on evaluation and assessment in software engineering—EASE ’14, 1–10. 10.1145/2601248.2601268
+
+Wong M (2019) Deep learning models for malicious web content detection: an enterprise study (Doctoral dissertation).
+
+Wu Y, Schuster M, Chen Z, Le QV, Norouzi M, Macherey W, Klingner J (2016) Google’s neural machine translation system: bridging the gap between human and machine translation. arXiv preprint arXiv:1609.08144
+
+Xia P, Wang H, Zhang B, Ji R, Gao B, Wu L, Xu G. Characterizing cryptocurrency exchange scams. Comput Secur. 2020;98:101993. doi: 10.1016/j.cose.2020.101993.
+
+Yi P, Guan Y, Zou F, Yao Y, Wang W, Zhu T. Web phishing detection using a deep learning framework. Wirel Commun Mobile Comput. 2018;2018:4678746. doi: 10.1155/2018/4678746.
+
+Yu D, Deng L. Deep learning and its applications to signal and information processing [exploratory dsp] IEEE Signal Process Mag. 2010;28(1):145–154. doi: 10.1109/MSP.2010.939038.
+
+Zamir A, Khan HU, Iqbal T, Yousaf N, Aslam F, Anjum A, Hamdani M. Phishing web site detection using diverse machine learning algorithms. Electron Libr. 2020;38(1):65–80. doi: 10.1108/EL-05-2019-0118.
+
+Zhang Y, Wang J, Chen B. Detecting false data injection attacks in smart grids: a semi-supervised deep learning approach. IEEE Trans Smart Grid. 2020;12:623–634. doi: 10.1109/TSG.2020.3010510.
+
+Zuraiq AA, Alkasassbeh M (2019) Phishing detection approaches. In: 2019 2nd international conference on new trends in computing sciences (ICTCS). IEEE, pp 1–6",No grants available
+35591061,Cyber Threat Intelligence-Based Malicious URL Detection Model Using Ensemble Learning.,"Web applications have become ubiquitous for many business sectors due to their platform independence and low operation cost. Billions of users are visiting these applications to accomplish their daily tasks. However, many of these applications are either vulnerable to web defacement attacks or created and managed by hackers such as fraudulent and phishing websites. Detecting malicious websites is essential to prevent the spreading of malware and protect end-users from being victims. However, most existing solutions rely on extracting features from the website's content which can be harmful to the detection machines themselves and subject to obfuscations. Detecting malicious Uniform Resource Locators (URLs) is safer and more efficient than content analysis. However, the detection of malicious URLs is still not well addressed due to insufficient features and inaccurate classification. This study aims at improving the detection accuracy of malicious URL detection by designing and developing a cyber threat intelligence-based malicious URL detection model using two-stage ensemble learning. The cyber threat intelligence-based features are extracted from web searches to improve detection accuracy. Cybersecurity analysts and users reports around the globe can provide important information regarding malicious websites. Therefore, cyber threat intelligence-based (CTI) features extracted from Google searches and Whois websites are used to improve detection performance. The study also proposed a two-stage ensemble learning model that combines the random forest (RF) algorithm for preclassification with multilayer perceptron (MLP) for final decision making. The trained MLP classifier has replaced the majority voting scheme of the three trained random forest classifiers for decision making. The probabilistic output of the weak classifiers of the random forest was aggregated and used as input for the MLP classifier for adequate classification. Results show that the extracted CTI-based features with the two-stage classification outperform other studies' detection models. The proposed CTI-based detection model achieved a 7.8% accuracy improvement and 6.7% reduction in false-positive rates compared with the traditional URL-based model.","Sensors (Basel, Switzerland)","Ghaleb, Alsaedi, Saeed, Ahmad, Alasli",2022,10.3390/s22093373,PMC9101641,https://pubmed.ncbi.nlm.nih.gov/35591061,"Jang-Jaccard J., Nepal S. A survey of emerging threats in cybersecurity. J. Comput. Syst. Sci. 2014;80:973–993. doi: 10.1016/j.jcss.2014.02.005.
+
+Khan M.A., Nasralla M., Uman M., Rehman G., Khan S., Choudhury N. An Efficient Multilevel Probabilistic Model for Abnormal Traffic Detection in Wireless Sensor Networks. Sensors. 2022;22:410. doi: 10.3390/s22020410.
+
+Nasralla M.M., García-Magariño I., Lloret J. Defenses against perception-layer attacks on iot smart furniture for impaired people. IEEE Access. 2020;8:119795–119805. doi: 10.1109/ACCESS.2020.3004814.
+
+Guo J., Nazir S. Internet of Things Based Intelligent Techniques in Workable Computing: An Overview. Sci. Program. 2021;2021:1–15. doi: 10.1155/2021/6805104.
+
+Townsend K. 18.5 Million Websites Infected With Malware at Any Time. 2018.  [(accessed on 2 January 2022)].  Available online:  https://www.securityweek.com/185-million-websites-infected-malware-any-time.
+
+Google  Google Safe Browsing. 2022.  [(accessed on 2 January 2022)].  Available online:  https://transparencyreport.google.com/safe-browsing/overview?hl=en.
+
+Liu M., Zhang B., Chen W., Zhang X. A survey of exploitation and detection methods of XSS vulnerabilities. IEEE Access. 2019;7:182004–182016. doi: 10.1109/ACCESS.2019.2960449.
+
+Saleem Raja A., Vinodini R., Kavitha A. Lexical features based malicious URL detection using machine learning techniques. Mater. Today Proc. 2021;47:163–166. doi: 10.1016/j.matpr.2021.04.041.
+
+Subasi A., Balfaqih M., Balfagih Z., Alfawwaz K. A Comparative Evaluation of Ensemble Classifiers for Malicious Webpage Detection. Procedia Comput. Sci. 2021;194:272–279. doi: 10.1016/j.procs.2021.10.082.
+
+Rameem Z.S., Chishti M., Baba A., Wu F. Detecting Covid-19 chaos driven phishing/malicious URL attacks by a fuzzy logic and data mining based intelligence system. Egypt. Inform. J. 2021;23:1–18. doi: 10.1016/j.eij.2021.12.003.
+
+Gupta B.B., Yadav K., Psnannis K., Razzak I. A novel approach for phishing URLs detection using lexical based machine learning in a real-time environment. Comput.Commun. 2021;175:47–57. doi: 10.1016/j.comcom.2021.04.023.
+
+Wazirali R., Ahmad R., Abu-Ein A.A.-K. Sustaining accurate detection of phishing URLs using SDN and feature selection approaches. Comput. Netw. 2021;201:108591. doi: 10.1016/j.comnet.2021.108591.
+
+Mondal D.K., Singh B., Hu H., Biswas S., Alom Z., Azim M. SeizeMaliciousURL: A novel learning approach to detect malicious URLs. J. Inf. Secur. Appl. 2021;62:102967. doi: 10.1016/j.jisa.2021.102967.
+
+Haynes K., Shirazi H., Ray I. Lightweight URL-based phishing detection using natural language processing transformers for mobile devices. Procedia Comput. Sci. 2021;191:127–134. doi: 10.1016/j.procs.2021.07.040.
+
+Srinivasan S., Vinayakumar R., Arunachalam A., Alazab M., Soman K. Malware Analysis Using Artificial Intelligence and Deep Learning. Springer; Berlin/Heidelberg, Germany: 2021. DURLD: Malicious URL Detection Using Deep Learning-Based Character Level Representations; pp. 535–554.
+
+Chiramdasu R., Srivastava G., Bhattacharya S., Reddy P., Gadekallu T. Malicious URL Detection using Logistic Regression; Proceedings of the 2021 IEEE International Conference on Omni-Layer Intelligent Systems (COINS); Barcelona, Spain. 23–25 August 2021.
+
+Phung N.M., Mimura M. Detection of malicious javascript on an imbalanced dataset. Internet Things. 2021;13:100357. doi: 10.1016/j.iot.2021.100357.
+
+Huang Y., Li T., Zhang L., Li B., Liu X. JSContana: Malicious JavaScript detection using adaptable context analysis and key feature extraction. Comput. Secur. 2021;104:102218. doi: 10.1016/j.cose.2021.102218.
+
+McGahagan IV J., Bhansali D., Pinto C., Cukir M. Discovering Features for Detecting Malicious Websites: An Empirical Study. Comput. Secur. 2021;109:102374. doi: 10.1016/j.cose.2021.102374.
+
+Samarasinghe N., Mannan M. On cloaking behaviors of malicious websites. Comput. Secur. 2021;101:102114. doi: 10.1016/j.cose.2020.102114.
+
+Kim S., Kim J., Nam S., Jin J. WebMon: ML-and YARA-based malicious webpage detection. Comput. Netw. 2018;137:119–131. doi: 10.1016/j.comnet.2018.03.006.
+
+Rakesh R., Muthuraijkumar S., Sairamesh L., Vijayalakmi M., Kannan A. Detection of URL based attacks using reduced feature set and modified C4. 5 algorithm. Adv. Nat. Appl.Sci. 2015;9:304–311.
+
+Kim S., Kim J., Kang B.B. Malicious URL protection based on attackers’ habitual behavioral analysis. Comput. Secur. 2018;77:790–806. doi: 10.1016/j.cose.2018.01.013.
+
+He S., Li B., Peng X., Xin J., Zhang E. An Effective Cost-Sensitive XGBoost Method for Malicious URLs Detection in Imbalanced Dataset. IEEE Access. 2021;9:93089–93096. doi: 10.1109/ACCESS.2021.3093094.
+
+Patil D.R., Patil J.B. Malicious URLs detection using decision tree classifiers and majority voting technique. Cybern. Inf. Technol. 2018;18:11–29. doi: 10.2478/cait-2018-0002.
+
+Li T., Kou G., Peng Y. Improving malicious URLs detection via feature engineering: Linear and nonlinear space transformation methods. Inf. Syst. 2020;91:101494. doi: 10.1016/j.is.2020.101494.
+
+Wang S., Chen Z., Yan Q., Li K., Peng L., Yang B., Conti M. Deep and broad URL feature mining for android malware detection. Inf. Sci. 2020;513:600–613. doi: 10.1016/j.ins.2019.11.008.
+
+Vinayakumar R., Soman K.P., Poornachandran P. Evaluating deep learning approaches to characterize and classify malicious URL’s. J. Intell. Fuzzy Syst. 2018;34:1333–1343. doi: 10.3233/JIFS-169429.
+
+Kuyama M., Kakizaki Y., Sasaki R. Method for detecting a malicious domain by using whois and dns features; Proceedings of the Third International Conference on Digital Security and Forensics (DigitalSec2016); Kuala Lumpur, Malaysia. 6–8 September 2016.
+
+Ding C. Automatic Detection of Malicious URLs using Fine-Tuned Classification Model; Proceedings of the 2020 5th International Conference on Information Science, Computer Technology and Transportation (ISCTT); Shenyang, China. 13–15 November 2020.
+
+Cavnar W.B., Trenkle J.M. N-gram-based text categorization; Proceedings of SDAIR-94, 3rd Annual Symposium on Document Analysis and Information Retrieval; Las Vegas, NV, USA. 11–14 April 1994.
+
+Chauhan T., Palivela H. Optimization and improvement of fake news detection using deep learning approaches for societal benefit. J. Inf. Manag. Data Insights. 2021;1:100051. doi: 10.1016/j.jjimei.2021.100051.
+
+Goldani M.H., Momtazi S., Safabakhsh R. Detecting fake news with capsule neural networks. Appl. Soft Comput. 2021;101:106991. doi: 10.1016/j.asoc.2020.106991.
+
+Huang Y.-F., Chen P.-H. Fake news detection using an ensemble learning model based on Self-Adaptive Harmony Search algorithms. Expert Syst. Appl. 2020;159:113584. doi: 10.1016/j.eswa.2020.113584.
+
+Agarwal V., Sultana P., Malhotra S., Sarkar A. Analysis of Classifiers for Fake News Detection. Procedia Comput. Sci. 2019;165:377–383. doi: 10.1016/j.procs.2020.01.035.
+
+Ahmed H., Traore I., Saad S. Detection of online fake news using n-gram analysis and machine learning techniques; Proceedings of the International Conference on Intelligent, Secure, and Dependable Systems in Distributed and Cloud Environments; Vancouver, BC, Canada. 28–30 November 2017.
+
+Mbona I., Eloff J.H.P. Feature selection using Benford’s law to support detection of malicious social media bots. Inf. Sci. 2022;582:369–381. doi: 10.1016/j.ins.2021.09.038.
+
+Motiur R.S.S.M., Islam T., Jabiullah M.I. PhishStack: Evaluation of Stacked Generalization in Phishing URLs Detection. Procedia Comput. Sci. 2020;167:2410–2418. doi: 10.1016/j.procs.2020.03.294.
+
+Bell S., Komisarczuk P. An analysis of phishing blacklists: Google safe browsing, openphish, and phishtank; Proceedings of the Australasian Computer Science Week Multiconference; Melbourne, Australia. 4–6 February 2020.
+
+Marchal S., François J., State R., Engel T. PhishStorm: Detecting phishing with streaming analytics. IEEE Trans. Netw. Serv. Manag. 2014;11:458–471. doi: 10.1109/TNSM.2014.2377295.
+
+Ranganayakulu D., Chellappan C. Detecting Malicious URLs in E-mail–An Implementation. AASRI Procedia. 2013;4:125–131. doi: 10.1016/j.aasri.2013.10.020.
+
+Islam M.Z., Liu J., Li J., Liu L., Knag W. A semantics aware random forest for text classification; Proceedings of the 28th ACM International Conference on Information and Knowledge Management; Beijing, China. 3–7 November 2019; pp. 1061–1070.",
+34634081,Detecting phishing websites using machine learning technique.,"In recent years, advancements in Internet and cloud technologies have led to a significant increase in electronic trading in which consumers make online purchases and transactions. This growth leads to unauthorized access to users' sensitive information and damages the resources of an enterprise. Phishing is one of the familiar attacks that trick users to access malicious content and gain their information. In terms of website interface and uniform resource locator (URL), most phishing webpages look identical to the actual webpages. Various strategies for detecting phishing websites, such as blacklist, heuristic, Etc., have been suggested. However, due to inefficient security technologies, there is an exponential increase in the number of victims. The anonymous and uncontrollable framework of the Internet is more vulnerable to phishing attacks. Existing research works show that the performance of the phishing detection system is limited. There is a demand for an intelligent technique to protect users from the cyber-attacks. In this study, the author proposed a URL detection technique based on machine learning approaches. A recurrent neural network method is employed to detect phishing URL. Researcher evaluated the proposed method with 7900 malicious and 5800 legitimate sites, respectively. The experiments' outcome shows that the proposed method's performance is better than the recent approaches in malicious URL detection.",PloS one,Dutta,2021,10.1371/journal.pone.0258361,PMC8504731,https://pubmed.ncbi.nlm.nih.gov/34634081,"Anti-Phishing Working Group (APWG), https://docs.apwg.org//reports/apwg_trends_report_q4_2019.pdf
+
+Jain A.K., Gupta B.B. “PHISH-SAFE: URL Features-Based Phishing Detection System Using Machine Learning”, Cyber Security. Advances in Intelligent Systems and Computing, vol. 729, 2018, doi: 10.1007/978-981-10-8536-9_44
+
+Purbay M., Kumar D, “Split Behavior of Supervised Machine Learning Algorithms for Phishing URL Detection”, Lecture Notes in Electrical Engineering, vol. 683, 2021, doi: 10.1007/978-981-15-6840-4_40
+
+Gandotra E., Gupta D, “An Efficient Approach for Phishing Detection using Machine Learning”, Algorithms for Intelligent Systems, Springer, Singapore, 2021, 10.1007/978-981-15-8711-5_12.
+
+Hung Le, Quang Pham, Doyen Sahoo, and Steven C.H. Hoi, “URLNet: Learning a URL Representation with Deep Learning for Malicious URL Detection”, Conference’17, Washington, DC, USA, arXiv:1802.03162, July 2017.
+
+Hong J., Kim T., Liu J., Park N., Kim SW, “Phishing URL Detection with Lexical Features and Blacklisted Domains”, Autonomous Secure Cyber Systems. Springer, 10.1007/978-3-030-33432-1_12.
+
+J. Kumar, A. Santhanavijayan, B. Janet, B. Rajendran and B. S. Bindhumadhava, “Phishing Website Classification and Detection Using Machine Learning,” 2020 International Conference on Computer Communication and Informatics (ICCCI), Coimbatore, India, 2020, pp. 1–6, 10.1109/ICCCI48352.2020.9104161.
+
+Hassan Y.A. and Abdelfettah B, “Using case- based reasoning for phishing detection"", Procedia Computer Science, vol. 109, 2017, pp. 281–288.
+
+Rao RS, Pais AR. Jail-Phish: An improved search engine based phishing detection system. Computers & Security. 2019. Jun 1;83:246–67.
+
+Aljofey A, Jiang Q, Qu Q, Huang M, Niyigena JP. An effective phishing detection model based on character level convolutional neural network from URL. Electronics. 2020. Sep;9(9):1514.
+
+AlEroud A, Karabatis G. Bypassing detection of URL-based phishing attacks using generative adversarial deep neural networks. In: Proceedings of the Sixth International Workshop on Security and Privacy Analytics 2020 Mar 16 (pp. 53–60).
+
+Gupta D, Rani R, “Improving malware detection using big data and ensemble learning”, Computer Electronic Engineering, vol. 86, no.106729, 2020.
+
+J. Anirudha and P. Tanuja,”Phishing Attack Detection using Feature Selection Techniques “, Proceedings of International Conference on Communication and Information Processing (ICCIP), 2019, 10.2139/ssrn.3418542
+
+Wu CY, Kuo CC, Yang CS,” A phishing detection system based on machine learning” In: 2019 International Conference on Intelligent Computing and its Emerging Applications (ICEA), pp 28–32, 2019.
+
+Chiew KL, Chang EH, Tiong WK,”Utilisation of website logo for phishing detection”, Computer Security, pp.16–26, 2015.
+
+Srinivasa Rao R, Pais AR, “Detecting phishing websites using automation of human behavior”, In: Proceedings of the 3rd ACM workshop on cyber-physical system security, ACM, pp 33–42, 2017.
+
+Sahingoz OK, Buber E, Demir O, Diri B, “Machine learning based phishing detection from URLs”, Expert System Application, vol. 117, pp. 345–357, 2019.
+
+Zamir A, Khan HU, Iqbal T, Yousaf N, Aslam F et al.., “Phishing web site detection using diverse machine learning algorithms”, The Electronic Library, vol.38, no.1, pp. 65–80, 2019
+
+Almseidin M, Zuraiq AA, Al-kasassbeh M, Alnidami N, “Phishing detection based on machine learning and feature selection methods”, International journal of interactive mobile technology, vol. 13, no. 12, pp. 171–183, 2019.
+
+Tan CL, Chiew KL, Wong K, “PhishWHO: phishing webpage detection via identity keywords extraction and target domain name finder”, Decision Support Systems, vol. 88, pp 18–27, 2016.
+
+Gull S and SA Parah, “Color image authentication using dual watermarks”, In: 2019 fifth international conference on image information processing (ICIIP), pp 240–245, 2019.
+
+Giri KJ, Bashir R, Bhat JI, “A discrete wavelet based watermarking scheme for authentication of medical images”, International journal of E-Health medical Communication, pp 30–38, 2019.
+
+Gandotra E, Bansal D, Sofat S, “Malware threat assessment using fuzzy logic paradigm”, Cybernetics and systems, pp. 29–48, 2016.
+
+Gupta D and Rani R, “A study of big data evolution and research challenges”, Journal of information science, pp.322–340, 2019.
+
+AlexaRank, https://www.alexa.com/siteinfo, Accessed: 2020–06–01",No grants available
+33572521,Malicious URL Detection Based on Associative Classification.,"Cybercriminals use malicious URLs as distribution channels to propagate malware over the web. Attackers exploit vulnerabilities in browsers to install malware to have access to the victim's computer remotely. The purpose of most malware is to gain access to a network, ex-filtrate sensitive information, and secretly monitor targeted computer systems. In this paper, a data mining approach known as classification based on association (CBA) to detect malicious URLs using URL and webpage content features is presented. The CBA algorithm uses a training dataset of URLs as historical data to discover association rules to build an accurate classifier. The experimental results show that CBA gives comparable performance against benchmark classification algorithms, achieving 95.8% accuracy with low false positive and negative rates.","Entropy (Basel, Switzerland)","Kumi, Lim, Lee",2021,10.3390/e23020182,PMC7911559,https://pubmed.ncbi.nlm.nih.gov/33572521,"Kaspersky  Malware Variety Grows by 13.7% in 2019 Due to Web Skimmers.  [(accessed on 20 January 2020)]; Available online:  https://www.kaspersky.com/about/press-releases/2019_malware-variety-grows-by-137-in-2019-due-to-web-skimmers.
+
+Canali D., Cova M., Vigna G., Kruegel C. Prophiler: A Fast Filter for the Large-Scale Detection of Malicious Web Pages; Proceedings of the 20th International Conference on World Wide Web, WWW 2011; Hyderabad, India. 28 March–1 April 2011; pp. 197–206.
+
+Micro T. 10 Scary Tricks Cybercriminals Use to Lure Unsuspecting Users.  [(accessed on 20 January 2020)]; Available online:  https://www.trendmicro.com/vinfo/us/security/news/cybercrime-and-digital-threats/10-scary-tricks-cybercriminals-use-to-lure-unsuspecting-users.
+
+Trustwave Global Security Report.  [(accessed on 20 January 2020)];2019  Available online:  https://www.trustwave.com/en-us/resources/library/documents/2019-trustwave-global-security-report/
+
+Eshete B., Villafiorita A., Weldemariam K. Lecture Notes of the Institute for Computer Sciences, Social-Informatics and Telecommunications Engineering. Volume 106 LNICS. Springer; Berlin, Germany: 2013. BINSPECT: Holistic Analysis and Detection of Malicious Web Pages; pp. 149–166.
+
+Ma J., Saul L.K., Savage S., Voelker G.M. Beyond blacklists: Learning to detect malicious web sites from suspicious URLs; Proceedings of the 15th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining; Paris, France. 28 June–1 July 2009; pp. 1245–1253.
+
+Curtsinger C., Livshits B., Zorn B., Seifert C. ZOZZLE: Fast and precise in-browser JavaScript Malware detection; Proceedings of the 20th USENIX Security Symposium; San Francisco, CA, USA. 8–12 August 2011; pp. 33–48.
+
+Cuckoo Sandbox.  [(accessed on 20 January 2020)]; Available online:  https://cuckoosandbox.org/
+
+Moshchuk A., Bragin T., Deville D., Gribble S.D., Levy H.M. SpyProxy: Execution-based detection of malicious web content; Proceedings of the 16th USENIX Security Symposium; Boston, MA, USA. 6–10 August 2007; pp. 27–42.
+
+Salzberg S.L. C4.5: Programs for Machine Learning by J. Ross Quinlan. Morgan Kaufmann Publishers, Inc., 1993. Mach. Learn. 1994;16:235–240. doi: 10.1007/BF00993309.
+
+Agrawal R., Srikant R. Fast Algorithms for Mining Association Rules; Proceedings of the 20th International Conference on Very Large Data Bases; Santiago de Chile, Chile. 12–15 September 1994; pp. 487–499.
+
+Padillo F., Luna J.M., Ventura S. Evaluating associative classification algorithms for Big Data. Big Data Anal. 2019 doi: 10.1186/s41044-018-0039-7.
+
+Thabtah F. A review of associative classification mining. Knowl. Eng. Rev. 2007;22 doi: 10.1017/S0269888907001026.
+
+Abdelhamid N., Ayesh A., Thabtah F. Phishing detection based Associative Classification data mining. Expert Syst. Appl. 2014;41:5948–5959. doi: 10.1016/j.eswa.2014.03.019.
+
+Jeeva S.C., Rajsingh E.B. Intelligent phishing url detection using association rule mining. Hum. Centric Comput. Inf. Sci. 2016;6 doi: 10.1186/s13673-016-0064-3.
+
+Hadi W., Aburub F., Alhawari S. A new fast associative classification algorithm for detecting phishing websites. Appl. Soft Comput. J. 2016 doi: 10.1016/j.asoc.2016.08.005.
+
+Kim S., Kim J., Nam S., Kim D. WebMon: ML- and YARA-based malicious webpage detection. Comput. Netw. 2018;137:119–131. doi: 10.1016/j.comnet.2018.03.006.
+
+Li Y., Yang Z., Chen X., Yuan H., Liu W. A stacking model using URL and HTML features for phishing webpage detection. Future Gener. Comput. Syst. 2019;94:27–39. doi: 10.1016/j.future.2018.11.004.
+
+Google Safe Browsing.  [(accessed on 20 November 2019)]; Available online:  https://safebrowsing.google.com/
+
+Cao Y., Han W., Le Y. Anti-phishing based on automated individual white-list; Proceedings of the ACM Conference on Computer and Communications Security; Alexandria VA, USA. 27–31 October 2008; pp. 51–59.
+
+Arntz P. Explained: Domain Generating Algorithm.  [(accessed on 6 April 2020)]; Available online:  https://blog.malwarebytes.com/security-world/2016/12/explained-domain-generating-algorithm/
+
+Liu B., Hsu W., Ma Y., Ma B. Integrating Classification and Association Rule Mining; Proceedings of the Fourth International Conference on Knowledge Discovery and Data Mining; New York, NY, USA. 27–31 August 1998.
+
+Hahsler M., Johnson I., Kliegr T., Kuchař J. Associative Classification in R: Arc, arulesCBA, and rCBA. R J. 2019;9:254–267. doi: 10.32614/RJ-2019-048.
+
+Jiří F., Kliegr T. Classification based on associations (CBA)—A performance analysis; Proceedings of the CEUR Workshop Proceedings; Luxembourg. 20–26 September 2018;
+
+Alexa.  [(accessed on 20 February 2020)]; Available online:  https://www.alexa.com/topsites.
+
+OpenPhish.  [(accessed on 20 February 2020)]; Available online:  https://openphish.com/
+
+VxVault.  [(accessed on 20 February 2020)]; Available online:  http://vxvault.net/ViriList.php.
+
+URLhaus.  [(accessed on 20 February 2020)]; Available online:  https://urlhaus.abuse.ch/
+
+Johnson I., Hahsler M. arulesCBA v1. 2.0: Classification Based on Association Rules.  [(accessed on 21 April 2020)];2020  Available online:  https://github.com/ianjjohnson/arulesCBA.
+
+Fayyad U.M., Irani K.B. Multi-interval discretization of continuous-valued attributes for classification learning; Proceedings of the 13th International Joint Conference on Artificial Intelligence; Chambéry, France. 28 August–3 September 1993;
+
+University of Waikato  WEKA.  [(accessed on 10 April 2020)]; Available online:  https://www.cs.waikato.ac.nz/ml/weka/",

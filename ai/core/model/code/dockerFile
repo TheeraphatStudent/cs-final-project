@@ -1,0 +1,5 @@
+from 3.11.13-alpine3.21
+
+COPY . .
+
+CMD [ "python " ]
