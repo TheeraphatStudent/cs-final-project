@@ -1,5 +1,7 @@
 # Malicious URL Detection using Machine Learning
 
+To train an ai model to predict an url is safe or not
+
 ## Ai model
 
 - [How to make an ai model](https://www.netguru.com/blog/how-to-make-an-ai-model)
@@ -144,3 +146,27 @@ podman compose -f ./cuda.docker-compose.yaml up -d
 ```
 /usr/local/
 ```
+
+# Setup environment
+
+1. Create **.venv**
+```
+python -m venv .venv
+```
+
+2. Active .venv
+```
+source .\.venv\bin\activate
+```
+
+**if permission issue running chmod +x to `activate`**
+
+3. Install requirement
+```
+.\.venv\bin\pip install -r requirements.txt
+```
+
+# Problem with jupyter notebook
+
+- Select kernel from venv
+- If can't try to close and open ide again it will be working kub :)
