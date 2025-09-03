@@ -58,10 +58,15 @@ ShotDroid is a pentesting tool for android. There are 3 tools that have their re
 
 - [Malicious URLs Detection using Machine Learning](https://github.com/Youssef-Daouayry/Malicious-URLs-Detection-using-Machine-Learning)
 
-### Reserch Paper
+### Research
 
 - [From Past to Present: A Survey of Malicious URL Detection
 Techniques, Datasets and Code Repositories](https://arxiv.org/pdf/2504.16449)
 - [Machine Learning for Malicious URL Detection](https://www.researchgate.net/publication/347620249_Machine_Learning_for_Malicious_URL_Detection)
 - [Machine Learning-Powered Malicious Website Detection System](https://www.researchgate.net/publication/388429921_Machine_Learning-Powered_Malicious_Website_Detection_System)
 - [Paper - Mjekokcus QVE Bataotkcl QskliMjodkla Eajrlkli](https://www.scribd.com/presentation/519481206/Seminar-PPT-Final)
+- [Extraction feature vectors from url string from malicious url](https://medium.com/data-science/extracting-feature-vectors-from-url-strings-for-malicious-url-detection-cbafc24737a)
+- [What is a URL](https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics/What_is_a_URL)
+- [What is a Domain Name?](https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics/What_is_a_domain_name)
+- [What is a top-level domain (TLD)?](https://www.cloudflare.com/learning/dns/top-level-domain/)
+- [What Top-level Domains attract Phishers?](https://www.cybercrimeinfocenter.org/what-top-level-domains-attract-phishers)
