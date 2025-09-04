@@ -93,3 +93,6 @@ venv
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Test
+**/__test__/

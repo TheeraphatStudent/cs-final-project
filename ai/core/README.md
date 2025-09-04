@@ -70,3 +70,12 @@ Techniques, Datasets and Code Repositories](https://arxiv.org/pdf/2504.16449)
 - [What is a Domain Name?](https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics/What_is_a_domain_name)
 - [What is a top-level domain (TLD)?](https://www.cloudflare.com/learning/dns/top-level-domain/)
 - [What Top-level Domains attract Phishers?](https://www.cybercrimeinfocenter.org/what-top-level-domains-attract-phishers)
+- [Saving trained model in Python](https://neptune.ai/blog/saving-trained-model-in-python)
+
+### Deployment
+- [Ml flow](https://mlflow.org/)
+- [Ml flow docker ](https://mlflow.org/docs/latest/ml/docker/)
+- [Ml flow sklearn integration](https://mlflow.org/docs/latest/ml/traditional-ml/sklearn/index.html)
+- [Ml flow with exist model](https://mlflow.org/docs/latest/ml/model-registry/)
+- [Databrick](https://docs.databricks.com/aws/en/mlflow/)
+- [Github container registry](https://github.com/docker/login-action#github-container-registry)

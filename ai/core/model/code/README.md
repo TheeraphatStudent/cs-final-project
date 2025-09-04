@@ -2,6 +2,8 @@
 
 To train an ai model to predict an url is safe or not
 
+**If wanna change an feature of ai, go to section of feature etraxtion and implement it kub!**
+
 ## Ai model
 
 - [How to make an ai model](https://www.netguru.com/blog/how-to-make-an-ai-model)
