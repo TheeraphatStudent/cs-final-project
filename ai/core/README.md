@@ -1,4 +1,4 @@
-## Ai Model Core
+# Ai Model Core
 
 Ai model running with python11 on container
 
@@ -32,6 +32,16 @@ podman compose -f ai/core/model/code/docker-compose.yaml up -d -build --remove-o
 - random forest classifier
 - svm
 - xgboost
+
+## Container
+
+**Ml Flow**
+
+Running ml flow container
+```bash
+podman run -d --name mlflow_server --restart always -p 5000:5000 -v ./mlflow:/mlflow:z ghcr.io/mlflow/mlflow:v2.14.1 mlflow server --host 0.0.0.0 --port 5000 --backend-store-uri file:///mlflow/mlruns --default-artifact-root file:///mlflow/artifacts
+92bf0f486005ea181846a5697f51e057f2a7f9a7a7b0a0c4aa9376cdc87e7c36
+```
 
 ## Reference
 
@@ -77,5 +87,6 @@ Techniques, Datasets and Code Repositories](https://arxiv.org/pdf/2504.16449)
 - [Ml flow docker ](https://mlflow.org/docs/latest/ml/docker/)
 - [Ml flow sklearn integration](https://mlflow.org/docs/latest/ml/traditional-ml/sklearn/index.html)
 - [Ml flow with exist model](https://mlflow.org/docs/latest/ml/model-registry/)
+- [ML flow deployment](https://mlflow.org/docs/latest/ml/deployment/)
 - [Databrick](https://docs.databricks.com/aws/en/mlflow/)
 - [Github container registry](https://github.com/docker/login-action#github-container-registry)
