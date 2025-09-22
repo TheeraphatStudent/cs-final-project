@@ -1,0 +1,2 @@
+model,train_accuracy,test_accuracy,kernel,C,random_state
+SVM,89.775,88.0,rbf,1.0,42
