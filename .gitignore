@@ -66,6 +66,8 @@ ai/src_xgboost/my_model_2025-08-07.pkl
 ai/stable/_xgboots.pkl
 api/model/_xgboots.pkl
 
+ai/core/postgres-data/
+
 # Database Files
 *.db
 *.sqlite

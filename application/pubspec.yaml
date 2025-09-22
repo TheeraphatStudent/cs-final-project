@@ -42,6 +42,7 @@ dependencies:
   webview_flutter_android: ^4.9.0
   http: ^1.1.0
   dio: ^5.4.0
+  flutter_accessibility_service: ^1.0.0
 
 dev_dependencies:
   flutter_test:

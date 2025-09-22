@@ -43,6 +43,13 @@ podman run -d --name mlflow_server --restart always -p 5000:5000 -v ./mlflow:/ml
 92bf0f486005ea181846a5697f51e057f2a7f9a7a7b0a0c4aa9376cdc87e7c36
 ```
 
+## Dataset
+
+### Cross-Validation
+To validate model use cross-validation
+
+- Cross-validation should happen before you finalize the train-test split and scaling
+
 ## Reference
 
 ### Model
