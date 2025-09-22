@@ -25,21 +25,14 @@ To train an ai model to predict an url is safe or not
 
 ## Python Library
 
-*   **tensorflow:** The go-to library for building and training complex machine learning and deep learning models, especially neural networks.
 *   **xgboost:** A powerful and highly efficient library for creating gradient boosting models, often used to win machine learning competitions.
 *   **numpy:** The fundamental package for numerical computing, providing powerful array objects and mathematical functions.
 *   **scikit-learn:** A comprehensive and user-friendly library for a wide range of machine learning tasks like classification, regression, and clustering.
 *   **pandas:** An essential tool for data manipulation and analysis, offering flexible data structures like the DataFrame.
-*   **nltk:** A complete toolkit for natural language processing (NLP), used for working with and analyzing human language text.
-*   **openpyxl:** A specialized library for reading from and writing to Microsoft Excel files (`.xlsx` format).
 *   **matplotlib:** The foundational library for creating a wide variety of static, animated, and interactive plots and visualizations.
 *   **seaborn:** Built on top of matplotlib, this library makes it easier to create more attractive and statistically informative graphics.
-*   **requests:** The standard library for making simple and user-friendly HTTP requests to interact with web services and APIs.
-*   **beautifulsoup4:** A library perfect for web scraping, allowing you to pull data out of HTML and XML files.
-*   **urllib3:** A powerful, low-level HTTP client that provides fine-grained control over connections and requests, often used by other libraries like `requests`.
 *   **joblib:** A set of tools to provide lightweight pipelining in Python, particularly useful for saving and loading machine learning models and running parallel computations.
 *   **IPython:** An enhanced interactive Python shell that offers a more powerful and user-friendly command-line experience than the standard Python interpreter.
-*   **scipy:** A core scientific computing library that builds on NumPy to provide a large collection of algorithms for optimization, linear algebra, and signal processing.
 *   **wordcloud:** A library for generating word clouds, which are visual representations of text data where the size of each word is proportional to its frequency in the text.
 
 # Install tools

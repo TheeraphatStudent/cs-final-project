@@ -2,6 +2,9 @@
 #define FLUTTER_MY_APPLICATION_H_
 
 #include <gtk/gtk.h>
+#include <thread>
+#include <mutex>
+#include <condition_variable>
 
 G_DECLARE_FINAL_TYPE(MyApplication, my_application, MY, APPLICATION,
                      GtkApplication)

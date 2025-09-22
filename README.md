@@ -6,6 +6,9 @@ an malicious url checker tools integrated with ML
 
 - [AI Documentation](./ai/readme.md)
 
+## Libraries
+- [Flutter accessibility service](https://pub.dev/packages/flutter_accessibility_service)
+
 ## Reference
 
 - [Google Web Risk](https://cloud.google.com/security/products/web-risk)
